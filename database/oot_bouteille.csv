@@ -1,0 +1,5 @@
+id,game,category,number,name,location,era,requirement,description
+oot-bottle-01,oot,bouteille,1,Lait de Lon Lon,Ranch Lon Lon,Les deux,Rubis (10),"Après avoir réveillé Talon devant le Château d'Hyrule, retrouvez-le au ranch et gagnez son jeu des Super Cocoricos (repérer 3 cocoricos parmi le troupeau en 30 secondes). Bouteille obligatoire pour l'histoire."
+oot-bottle-02,oot,bouteille,2,Cocoricos de Kakariko,Village Cocorico,Les deux,Aucune,Retrouvez les 7 cocoricos égarés d'Anju dans tout le village et ramenez-les dans l'enclos pour recevoir la bouteille.
+oot-bottle-03,oot,bouteille,3,Lettre de Ruto,Lac Hylia / Domaine Zora,Les deux,Écaille d'Argent,"Gagnez le jeu de plongée du Domaine Zora pour obtenir l'Écaille d'Argent, plongez jusqu'au tunnel menant au Lac Hylia, récupérez la bouteille au fond, puis donnez la lettre au Roi Zora."
+oot-bottle-04,oot,bouteille,4,Chasseur de Fantômes,Marché (adulte),Les deux,10 Grands Poe,"Chassez les 10 Grands Poe dispersés dans la Plaine d'Hyrule à cheval avec l'Arc, capturez leurs esprits, puis livrez-les tous au Marchand de Poe."

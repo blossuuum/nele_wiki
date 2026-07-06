@@ -1,0 +1,1023 @@
+<?xml version="1.0" ?>
+<collectibles>
+  <item id="oot-heart-01">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>1</number>
+    <name>Quart de cœur n°1</name>
+    <location>Cimetière de Kakariko</location>
+    <era>Les deux</era>
+    <requirement>Chant du Soleil</requirement>
+    <description>Ouvrez la 2e tombe à droite face à la tombe royale, affrontez le ReDead à l'intérieur (gelez-le avec le Chant du Soleil), puis rejouez le Chant du Soleil devant les marches pour faire apparaître le coffre.</description>
+  </item>
+  <item id="oot-heart-02">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>2</number>
+    <name>Quart de cœur n°2</name>
+    <location>Cimetière de Kakariko</location>
+    <era>Les deux</era>
+    <requirement>Beaucoup de rubis</requirement>
+    <description>Entre 18h et 21h, payez Dampé 10 rubis par essai pour son jeu de fouille dans la terre meuble. Le résultat est aléatoire, il faudra parfois plusieurs tentatives.</description>
+  </item>
+  <item id="oot-heart-03">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>3</number>
+    <name>Quart de cœur n°3</name>
+    <location>Ranch Lon Lon</location>
+    <era>Enfant</era>
+    <requirement>Aucune</requirement>
+    <description>Dans la remise à l'arrière du ranch, déplacez les caisses pour dégager un trou dans le coin et rampez à l'intérieur.</description>
+  </item>
+  <item id="oot-heart-04">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>4</number>
+    <name>Quart de cœur n°4</name>
+    <location>Vallée Gerudo</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Dans l'alcôve au centre de la grande cascade au nord. Nagez jusqu'à l'échelle avec l'aide d'un Cocorico (enfant) ou en sautant depuis le côté Gerudo du pont (adulte).</description>
+  </item>
+  <item id="oot-heart-05">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>5</number>
+    <name>Quart de cœur n°5</name>
+    <location>Vallée Gerudo</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Sur la plateforme avec une caisse, côté Gerudo du pont. Utilisez un Cocorico (enfant) ou le Grappin depuis le côté Hyrule (adulte) pour l'atteindre.</description>
+  </item>
+  <item id="oot-heart-06">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>6</number>
+    <name>Quart de cœur n°6</name>
+    <location>Lac Hylia</location>
+    <era>Enfant</era>
+    <requirement>Aucune</requirement>
+    <description>À l'Étang de pêche, attrapez un poisson d'au moins 10 livres et montrez-le au pêcheur pour recevoir le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-07">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>7</number>
+    <name>Quart de cœur n°7</name>
+    <location>Bois Perdus</location>
+    <era>Enfant</era>
+    <requirement>Ocarina Fée</requirement>
+    <description>En entrant, allez à droite puis sautez dans la zone basse. Deux Skull Kids apparaissent : jouez à leur jeu de mémoire à l'ocarina et réussissez trois chants d'affilée.</description>
+  </item>
+  <item id="oot-heart-08">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>8</number>
+    <name>Quart de cœur n°8</name>
+    <location>Bois Perdus</location>
+    <era>Enfant</era>
+    <requirement>Chant de Saria</requirement>
+    <description>En entrant, allez à gauche. Montez sur la souche et jouez le Chant de Saria pour le Skull Kid, qui vous récompense aussitôt.</description>
+  </item>
+  <item id="oot-heart-09">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>9</number>
+    <name>Quart de cœur n°9</name>
+    <location>Ruelle du Marché</location>
+    <era>Enfant</era>
+    <requirement>Nuit</requirement>
+    <description>La nuit, ramenez le bon chien blanc (près de l'étal bleu) à Mamamu Yan dans la ruelle pour recevoir sa reconnaissance.</description>
+  </item>
+  <item id="oot-heart-10">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>10</number>
+    <name>Quart de cœur n°10</name>
+    <location>Cité Goron</location>
+    <era>Enfant</era>
+    <requirement>Bracelet Goron</requirement>
+    <description>Allumez toutes les torches de la cité (bâtons Deku ou Feu de Din). L'urne géante se met à tourner : lancez-y des bombes quand le visage vous sourit.</description>
+  </item>
+  <item id="oot-heart-11">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>11</number>
+    <name>Quart de cœur n°11</name>
+    <location>Cratère Montagne du Péril</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Au mur d'entrée du cratère, courez droit devant : Link se retourne et grimpe automatiquement vers l'alcôve. Autre solution : planter un Haricot Magique enfant et le chevaucher adulte.</description>
+  </item>
+  <item id="oot-heart-12">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>12</number>
+    <name>Quart de cœur n°12</name>
+    <location>Village Cocorico</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Grimpez sur le toit près de la maison d'Impa (via un Cocorico, le hibou, ou le Grappin en tant qu'adulte), puis entrez dans le trou du mur menant à la vache en cage.</description>
+  </item>
+  <item id="oot-heart-13">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>13</number>
+    <name>Quart de cœur n°13</name>
+    <location>Marché</location>
+    <era>Enfant</era>
+    <requirement>Bombes</requirement>
+    <description>Au Bowling aux Bombchus, les prix défilent en boucle : Bombchu, quart de cœur, Bombes, Sac à Bombes, rubis violet. Visez le bon moment.</description>
+  </item>
+  <item id="oot-heart-14">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>14</number>
+    <name>Quart de cœur n°14</name>
+    <location>Plaine d'Hyrule</location>
+    <era>Enfant/Adulte</era>
+    <requirement>Bombes</requirement>
+    <description>Près de l'entrée du Lac Hylia, posez une bombe au centre de l'enclos entouré de clôtures pour révéler un trou, puis achetez le quart de cœur au Mannequin des Bois pour 10 rubis.</description>
+  </item>
+  <item id="oot-heart-15">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>15</number>
+    <name>Quart de cœur n°15</name>
+    <location>Rivière Zora</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Sur le pilier central de la rivière : utilisez un Cocorico, le Boomerang (enfant) ou les Bottes Hover (adulte) pour l'atteindre.</description>
+  </item>
+  <item id="oot-heart-16">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>16</number>
+    <name>Quart de cœur n°16</name>
+    <location>Rivière Zora</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Près de la Cascade Insomniaque, à l'entrée du Domaine Zora. Mêmes méthodes que le quart de cœur précédent (Cocorico, Boomerang ou Bottes Hover).</description>
+  </item>
+  <item id="oot-heart-17">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>17</number>
+    <name>Quart de cœur n°17</name>
+    <location>Domaine Zora</location>
+    <era>Enfant</era>
+    <requirement>Aucune</requirement>
+    <description>Allumez les 5 torches du domaine avec un bâton Deku, dont deux cachées derrière la cascade, pour faire apparaître un grand coffre.</description>
+  </item>
+  <item id="oot-heart-18">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>18</number>
+    <name>Quart de cœur n°18</name>
+    <location>Cimetière</location>
+    <era>Les deux</era>
+    <requirement>Haricot Magique</requirement>
+    <description>Plantez un Haricot Magique dans la terre meuble à gauche du cimetière (enfant), puis revenez adulte pour chevaucher la pousse jusqu'à une caisse contenant le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-19">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>19</number>
+    <name>Quart de cœur n°19</name>
+    <location>Village Cocorico</location>
+    <era>Les deux</era>
+    <requirement>Boomerang / course de Dampé</requirement>
+    <description>Sur une plateforme mobile à l'intérieur du moulin. Accessible avec le Boomerang enfant, ou après la course contre le fantôme de Dampé adulte.</description>
+  </item>
+  <item id="oot-heart-20">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>20</number>
+    <name>Quart de cœur n°20</name>
+    <location>Cimetière</location>
+    <era>Adulte</era>
+    <requirement>Grappin</requirement>
+    <description>Battez le fantôme de Dampé dans sa course-poursuite en moins d'une minute pour recevoir le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-21">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>21</number>
+    <name>Quart de cœur n°21</name>
+    <location>Village Cocorico</location>
+    <era>Adulte</era>
+    <requirement>Grappin</requirement>
+    <description>Utilisez le Grappin pour atteindre le toit de la boutique de potions et parlez à l'homme qui s'y trouve.</description>
+  </item>
+  <item id="oot-heart-22">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>22</number>
+    <name>Quart de cœur n°22</name>
+    <location>Village Cocorico</location>
+    <era>Les deux</era>
+    <requirement>50 Skulltulas d'Or</requirement>
+    <description>Une fois 50 Skulltulas d'Or récoltées, entrez dans la Maison des Skulltulas pour réclamer votre récompense.</description>
+  </item>
+  <item id="oot-heart-23">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>23</number>
+    <name>Quart de cœur n°23</name>
+    <location>Lac Hylia</location>
+    <era>Les deux</era>
+    <requirement>Haricot Magique / Chant de l'Épouvantail</requirement>
+    <description>Sur le toit du Laboratoire au bord du lac, accessible via un Haricot Magique ou le Chant de l'Épouvantail combiné au Grappin.</description>
+  </item>
+  <item id="oot-heart-24">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>24</number>
+    <name>Quart de cœur n°24</name>
+    <location>Lac Hylia</location>
+    <era>Adulte</era>
+    <requirement>Écaille Dorée</requirement>
+    <description>Depuis le Laboratoire, plongez tout au fond du lac avec l'Écaille Dorée pour entendre le carillon secret, puis remontez parler au scientifique.</description>
+  </item>
+  <item id="oot-heart-25">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>25</number>
+    <name>Quart de cœur n°25</name>
+    <location>Plaine d'Hyrule</location>
+    <era>Les deux</era>
+    <requirement>Écaille Dorée / Bottes de Fer</requirement>
+    <description>Près d'un arbre isolé au nord-ouest du Ranch Lon Lon (la Pierre d'Âme réagit). Posez une bombe pour révéler un trou, puis plongez profondément à l'intérieur.</description>
+  </item>
+  <item id="oot-heart-26">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>26</number>
+    <name>Quart de cœur n°26</name>
+    <location>Sentier de la Montagne du Péril</location>
+    <era>Les deux</era>
+    <requirement>Haricot Magique</requirement>
+    <description>Plantez un Haricot Magique enfant dans la terre meuble à l'entrée de la Caverne de Dodongo, puis chevauchez-le adulte pour atteindre la corniche au-dessus de l'entrée.</description>
+  </item>
+  <item id="oot-heart-27">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>27</number>
+    <name>Quart de cœur n°27</name>
+    <location>Cratère Montagne du Péril</location>
+    <era>Adulte</era>
+    <requirement>Chant du Boléro du Feu, Haricot Magique</requirement>
+    <description>Plantez un Haricot près du piédestal Triforce (enfant), puis chevauchez-le adulte jusqu'au sommet d'un des pics fumants du cratère.</description>
+  </item>
+  <item id="oot-heart-28">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>28</number>
+    <name>Quart de cœur n°28</name>
+    <location>Fontaine Zora</location>
+    <era>Adulte</era>
+    <requirement>Aucune</requirement>
+    <description>Une fois le Temple de l'Eau terminé, sautez de bloc de glace en bloc de glace flottant sur la fontaine pour atteindre le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-29">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>29</number>
+    <name>Quart de cœur n°29</name>
+    <location>Caverne de Glace</location>
+    <era>Adulte</era>
+    <requirement>Feu Bleu</requirement>
+    <description>Dans la salle aux stalactites tombantes, récupérez du Feu Bleu et faites fondre la Glace Rouge qui emprisonne le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-30">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>30</number>
+    <name>Quart de cœur n°30</name>
+    <location>Fontaine Zora</location>
+    <era>Adulte</era>
+    <requirement>Bottes de Fer</requirement>
+    <description>Enfilez les Bottes de Fer pour couler jusqu'au fond de la fontaine et récupérer le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-31">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>31</number>
+    <name>Quart de cœur n°31</name>
+    <location>Rivière Zora</location>
+    <era>Enfant</era>
+    <requirement>Chant des Tempêtes</requirement>
+    <description>Montez sur le tronc qui dépasse au centre de la rivière et jouez le Chant des Tempêtes aux grenouilles rassemblées.</description>
+  </item>
+  <item id="oot-heart-32">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>32</number>
+    <name>Quart de cœur n°32</name>
+    <location>Rivière Zora</location>
+    <era>Enfant</era>
+    <requirement>Tous les chants (sauf téléportation)</requirement>
+    <description>Jouez Berceuse de Zelda, Chant de Saria, Chant d'Épona, Chant du Soleil et Chant du Temps aux grenouilles, puis réussissez leur mini-jeu de rythme façon Simon.</description>
+  </item>
+  <item id="oot-heart-33">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>33</number>
+    <name>Quart de cœur n°33</name>
+    <location>Marché</location>
+    <era>Enfant</era>
+    <requirement>Lentille de Vérité (nuit)</requirement>
+    <description>Au Jeu du Coffre au Trésor, choisissez entre deux coffres à chaque salle. La Lentille de Vérité permet de voir le contenu et de progresser sans erreur.</description>
+  </item>
+  <item id="oot-heart-34">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>34</number>
+    <name>Quart de cœur n°34</name>
+    <location>Forteresse Gerudo</location>
+    <era>Adulte</era>
+    <requirement>Jeton Gerudo, Grappin</requirement>
+    <description>Grimpez au sommet de la forteresse puis utilisez le Grappin (ou le Chant de l'Épouvantail avec Pierre) pour atteindre le coffre sur le toit.</description>
+  </item>
+  <item id="oot-heart-35">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>35</number>
+    <name>Quart de cœur n°35</name>
+    <location>Champ de Tir à Cheval</location>
+    <era>Adulte</era>
+    <requirement>Jeton Gerudo, Épona</requirement>
+    <description>Marquez plus de 1000 points au jeu de tir à l'arc à cheval pour recevoir le quart de cœur.</description>
+  </item>
+  <item id="oot-heart-36">
+    <game>oot</game>
+    <category>coeur</category>
+    <number>36</number>
+    <name>Quart de cœur n°36</name>
+    <location>Colosse du Désert</location>
+    <era>Les deux</era>
+    <requirement>Requiem de l'Esprit, Haricot Magique</requirement>
+    <description>Plantez un Haricot Magique près de l'entrée du Temple de l'Esprit (enfant), puis chevauchez-le adulte jusqu'à la plateforme finale en forme de menhirs.</description>
+  </item>
+  <item id="ww-heart-01">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>1</number>
+    <name>Quart de cœur n°1</name>
+    <location>Forteresse Oubliée</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Dans la cellule voisine de la vôtre, déplacez les tonneaux pour révéler un interrupteur qui ouvre la grille d'une cellule contenant un coffre.</description>
+  </item>
+  <item id="ww-heart-02">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>2</number>
+    <name>Quart de cœur n°2</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Gagnez à cache-cache contre les Abeilles Tueuses ; Ivan vous récompense.</description>
+  </item>
+  <item id="ww-heart-03">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>3</number>
+    <name>Quart de cœur n°3</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>10 rubis</requirement>
+    <description>Réussissez le mini-jeu « Navires en perdition » de Salvatore en moins de 24 tirs de canon.</description>
+  </item>
+  <item id="ww-heart-04">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>4</number>
+    <name>Quart de cœur n°4</name>
+    <location>Île de la Griffe</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Rampez dans le dôme au centre de l'île, vainquez les Chuchus Rouges dans la grotte, puis ouvrez le coffre au bout du chemin.</description>
+  </item>
+  <item id="ww-heart-05">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>5</number>
+    <name>Quart de cœur n°5</name>
+    <location>Toute boîte aux lettres</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Triez 25 lettres pour Baito au bureau de poste de l'Île de Vaisserang, postez sa lettre, puis récupérez la réponse de sa mère qui contient le quart de cœur.</description>
+  </item>
+  <item id="ww-heart-06">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>6</number>
+    <name>Quart de cœur n°6</name>
+    <location>Toute boîte aux lettres</location>
+    <era>N/A</era>
+    <requirement>Perle de Farore</requirement>
+    <description>Après avoir terminé le Bois Interdit, une lettre du Chef Rito arrive dans n'importe quelle boîte aux lettres.</description>
+  </item>
+  <item id="ww-heart-07">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>7</number>
+    <name>Quart de cœur n°7</name>
+    <location>Îlots des Cinq Étoiles</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°33</requirement>
+    <description>Utilisez la charte pour localiser le trésor englouti et remontez-le.</description>
+  </item>
+  <item id="ww-heart-08">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>8</number>
+    <name>Quart de cœur n°8</name>
+    <location>Îlots des Cinq Étoiles</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Entrez dans le sous-marin au sud de l'îlot, vainquez les ennemis à l'intérieur et ouvrez le coffre.</description>
+  </item>
+  <item id="ww-heart-09">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>9</number>
+    <name>Quart de cœur n°9</name>
+    <location>Îles Anguleuses</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°15</requirement>
+    <description>Utilisez la charte pour localiser le coffre englouti contenant le quart de cœur.</description>
+  </item>
+  <item id="ww-heart-10">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>10</number>
+    <name>Quart de cœur n°10</name>
+    <location>Îles Anguleuses</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Sur la plus grande île, poussez et tirez les blocs pour grimper jusqu'au sommet et ouvrir le coffre.</description>
+  </item>
+  <item id="ww-heart-11">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>11</number>
+    <name>Quart de cœur n°11</name>
+    <location>Île de la Pierre Tombale</location>
+    <era>N/A</era>
+    <requirement>Poire Hyoi</requirement>
+    <description>Prenez le contrôle d'une mouette avec une Poire Hyoi et volez jusqu'au sommet de l'île pour attraper le quart de cœur.</description>
+  </item>
+  <item id="ww-heart-12">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>12</number>
+    <name>Quart de cœur n°12</name>
+    <location>Île du Contrefort en Diamant</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°23</requirement>
+    <description>Repérez la zone de lumière indiquée par la charte, puis remontez et ouvrez le coffre.</description>
+  </item>
+  <item id="ww-heart-13">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>13</number>
+    <name>Quart de cœur n°13</name>
+    <location>Îlot du Rocher-Aiguille</location>
+    <era>N/A</era>
+    <requirement>Poire Hyoi</requirement>
+    <description>Contrôlez une mouette jusqu'au sommet pour activer un interrupteur, ce qui éteint les flammes protégeant un coffre en contrebas.</description>
+  </item>
+  <item id="ww-heart-14">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>14</number>
+    <name>Quart de cœur n°14</name>
+    <location>Île du Grand Poisson</location>
+    <era>N/A</era>
+    <requirement>Feuille Deku</requirement>
+    <description>Grimpez au sommet de la petite île, réglez le vent puis planez au nord-ouest jusqu'à une corniche avec un coffre.</description>
+  </item>
+  <item id="ww-heart-15">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>15</number>
+    <name>Quart de cœur n°15</name>
+    <location>Récif aux Six Yeux</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Montez à bord du sous-marin au sud-ouest, vainquez les trois Moblins à l'intérieur, puis grimpez l'échelle jusqu'au coffre.</description>
+  </item>
+  <item id="ww-heart-16">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>16</number>
+    <name>Quart de cœur n°16</name>
+    <location>Île Accalmie</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Relevez le défi d'Orca : le toucher 500 fois avec votre épée sans être touché trois fois.</description>
+  </item>
+  <item id="ww-heart-17">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>17</number>
+    <name>Quart de cœur n°17</name>
+    <location>Île du Veilleur de Pierre</location>
+    <era>N/A</era>
+    <requirement>Canon</requirement>
+    <description>Détruisez les canons sous la plateforme de guet ennemie, grimpez et ouvrez le coffre qui apparaît.</description>
+  </item>
+  <item id="ww-heart-18">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>18</number>
+    <name>Quart de cœur n°18</name>
+    <location>Île de Tingle</location>
+    <era>N/A</era>
+    <requirement>Canon ou Boomerang</requirement>
+    <description>Vainquez le Grand Octogonien au nord de l'île, puis utilisez le Grappin pour remonter le trésor qu'il laisse tomber.</description>
+  </item>
+  <item id="ww-heart-19">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>19</number>
+    <name>Quart de cœur n°19</name>
+    <location>Île du Spectacle</location>
+    <era>N/A</era>
+    <requirement>50 rubis</requirement>
+    <description>Jouez au mini-jeu de tir au canon installé par Salvatore et terminez-le avec succès.</description>
+  </item>
+  <item id="ww-heart-20">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>20</number>
+    <name>Quart de cœur n°20</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Beaucoup de rubis</requirement>
+    <description>Participez aux enchères nocturnes à l'Hôtel des Ventes jusqu'à remporter celle du quart de cœur.</description>
+  </item>
+  <item id="ww-heart-21">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>21</number>
+    <name>Quart de cœur n°21</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Boîte à Pictos Deluxe</requirement>
+    <description>Prenez une photo en couleur de Linda, donnez-la à Anton, puis retrouvez Linda au café pour recevoir sa récompense.</description>
+  </item>
+  <item id="ww-heart-22">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>22</number>
+    <name>Quart de cœur n°22</name>
+    <location>Île du Croissant de Lune</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°11</requirement>
+    <description>Utilisez la charte pour localiser puis remonter le trésor englouti.</description>
+  </item>
+  <item id="ww-heart-23">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>23</number>
+    <name>Quart de cœur n°23</name>
+    <location>Îlots des Sept Étoiles</location>
+    <era>N/A</era>
+    <requirement>Canon ou Boomerang</requirement>
+    <description>Vainquez le Grand Octogonien à 12 yeux qui garde cette zone.</description>
+  </item>
+  <item id="ww-heart-24">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>24</number>
+    <name>Quart de cœur n°24</name>
+    <location>Toute boîte aux lettres</location>
+    <era>N/A</era>
+    <requirement>20 Plumes Dorées</requirement>
+    <description>Donnez 20 Plumes Dorées au garde devant la chambre du Chef Rito, puis attendez la lettre de sa petite amie.</description>
+  </item>
+  <item id="ww-heart-25">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>25</number>
+    <name>Quart de cœur n°25</name>
+    <location>Plateforme de Contrôle Aérien</location>
+    <era>N/A</era>
+    <requirement>Feuille Deku</requirement>
+    <description>Réglez le vent et utilisez les cyclones pour réussir le Concours de l'Homme-Oiseau ; une jauge de magie améliorée aide beaucoup.</description>
+  </item>
+  <item id="ww-heart-26">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>26</number>
+    <name>Quart de cœur n°26</name>
+    <location>Île de la Bombe</location>
+    <era>N/A</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le rocher central pour révéler une grotte, neutralisez les Magmenta qui bloquent le passage, puis ouvrez le coffre.</description>
+  </item>
+  <item id="ww-heart-27">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>27</number>
+    <name>Quart de cœur n°27</name>
+    <location>Havre de la Forêt</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°31</requirement>
+    <description>Utilisez la charte pour localiser et remonter le trésor contenant le quart de cœur.</description>
+  </item>
+  <item id="ww-heart-28">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>28</number>
+    <name>Quart de cœur n°28</name>
+    <location>Récif aux Trois Yeux</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°38</requirement>
+    <description>Repérez le point lumineux indiqué par la charte et remontez le trésor.</description>
+  </item>
+  <item id="ww-heart-29">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>29</number>
+    <name>Quart de cœur n°29</name>
+    <location>Île de l'Étoile</location>
+    <era>N/A</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le rocher menant à une grotte secrète, vainquez les ennemis à l'intérieur, puis ouvrez le coffre.</description>
+  </item>
+  <item id="ww-heart-30">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>30</number>
+    <name>Quart de cœur n°30</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Achetez et plantez 14 pots de fleurs chez Zunari, répartis sur l'île, puis parlez à l'homme assis sur le banc.</description>
+  </item>
+  <item id="ww-heart-31">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>31</number>
+    <name>Quart de cœur n°31</name>
+    <location>Île du Rocher-Épine</location>
+    <era>N/A</era>
+    <requirement>950 rubis</requirement>
+    <description>Achetez directement ce quart de cœur au bateau-boutique du Barterie masqué qui navigue autour de l'île.</description>
+  </item>
+  <item id="ww-heart-32">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>32</number>
+    <name>Quart de cœur n°32</name>
+    <location>Île du Rocher-Épine</location>
+    <era>N/A</era>
+    <requirement>Canon</requirement>
+    <description>Coulez les deux navires ennemis qui patrouillent autour de l'île et récupérez leur butin.</description>
+  </item>
+  <item id="ww-heart-33">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>33</number>
+    <name>Quart de cœur n°33</name>
+    <location>Île de la Fée du Sud</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°4</requirement>
+    <description>Utilisez la charte pour localiser et remonter le trésor englouti.</description>
+  </item>
+  <item id="ww-heart-34">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>34</number>
+    <name>Quart de cœur n°34</name>
+    <location>Île de la Griffe</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°30</requirement>
+    <description>Utilisez la charte pour localiser et remonter un second trésor sur cette île.</description>
+  </item>
+  <item id="ww-heart-35">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>35</number>
+    <name>Quart de cœur n°35</name>
+    <location>Île du Grand Poisson</location>
+    <era>N/A</era>
+    <requirement>Statue du Gourou</requirement>
+    <description>Récompense finale de la Séquence des Marchands Ambulants, après avoir échangé la Statue du Gourou.</description>
+  </item>
+  <item id="ww-heart-36">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>36</number>
+    <name>Quart de cœur n°36</name>
+    <location>N'importe où</location>
+    <era>N/A</era>
+    <requirement>Eau de Forêt</requirement>
+    <description>Arrosez le tout dernier Arbre Flétri restant avec de l'Eau de Forêt pour qu'il libère le quart de cœur.</description>
+  </item>
+  <item id="ww-heart-37">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>37</number>
+    <name>Quart de cœur n°37</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Flèches de Feu</requirement>
+    <description>Activez le moulin (interrupteur en haut de l'échelle), grimpez dessus lorsqu'il tourne, puis tirez une Flèche de Feu dans le phare pour le rallumer et parler à Kreeb.</description>
+  </item>
+  <item id="ww-heart-38">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>38</number>
+    <name>Quart de cœur n°38</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Flèches de Feu, Feuille Deku</requirement>
+    <description>Une fois le phare rallumé, planez avec la Feuille Deku jusqu'au petit îlot où un coffre nocturne est apparu.</description>
+  </item>
+  <item id="ww-heart-39">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>39</number>
+    <name>Quart de cœur n°39</name>
+    <location>Île Mercantîle</location>
+    <era>N/A</era>
+    <requirement>Aucune</requirement>
+    <description>Postez la lettre de Maggie à Moe, récupérez sa réponse auprès d'Ilari au café, puis rapportez-la à Maggie.</description>
+  </item>
+  <item id="ww-heart-40">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>40</number>
+    <name>Quart de cœur n°40</name>
+    <location>Île du Rocher-Épine</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°2</requirement>
+    <description>Utilisez la charte pour localiser et remonter le trésor englouti.</description>
+  </item>
+  <item id="ww-heart-41">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>41</number>
+    <name>Quart de cœur n°41</name>
+    <location>Île Accalmie</location>
+    <era>N/A</era>
+    <requirement>Appât Universel</requirement>
+    <description>Portez le grand cochon noir de l'autre côté du pont, puis jetez de l'Appât Universel sur la terre meuble pour qu'il déterre le quart de cœur.</description>
+  </item>
+  <item id="ww-heart-42">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>42</number>
+    <name>Quart de cœur n°42</name>
+    <location>Île de la Bombe</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°20</requirement>
+    <description>Utilisez la charte pour localiser et remonter le trésor englouti.</description>
+  </item>
+  <item id="ww-heart-43">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>43</number>
+    <name>Quart de cœur n°43</name>
+    <location>Île de la Fée Épineuse</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°5</requirement>
+    <description>Utilisez la charte pour localiser et remonter le trésor englouti.</description>
+  </item>
+  <item id="ww-heart-44">
+    <game>ww</game>
+    <category>coeur</category>
+    <number>44</number>
+    <name>Quart de cœur n°44</name>
+    <location>Récif aux Deux Yeux</location>
+    <era>N/A</era>
+    <requirement>Charte au trésor n°46</requirement>
+    <description>Utilisez la charte pour localiser le dernier trésor englouti du jeu (sur GameCube : récompense des 50 étages du Labyrinthe Sauvage à la place).</description>
+  </item>
+  <item id="oot-bottle-01">
+    <game>oot</game>
+    <category>bouteille</category>
+    <number>1</number>
+    <name>Lait de Lon Lon</name>
+    <location>Ranch Lon Lon</location>
+    <era>Les deux</era>
+    <requirement>Rubis (10)</requirement>
+    <description>Après avoir réveillé Talon devant le Château d'Hyrule, retrouvez-le au ranch et gagnez son jeu des Super Cocoricos (repérer 3 cocoricos parmi le troupeau en 30 secondes). Bouteille obligatoire pour l'histoire.</description>
+  </item>
+  <item id="oot-bottle-02">
+    <game>oot</game>
+    <category>bouteille</category>
+    <number>2</number>
+    <name>Cocoricos de Kakariko</name>
+    <location>Village Cocorico</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Retrouvez les 7 cocoricos égarés d'Anju dans tout le village et ramenez-les dans l'enclos pour recevoir la bouteille.</description>
+  </item>
+  <item id="oot-bottle-03">
+    <game>oot</game>
+    <category>bouteille</category>
+    <number>3</number>
+    <name>Lettre de Ruto</name>
+    <location>Lac Hylia / Domaine Zora</location>
+    <era>Les deux</era>
+    <requirement>Écaille d'Argent</requirement>
+    <description>Gagnez le jeu de plongée du Domaine Zora pour obtenir l'Écaille d'Argent, plongez jusqu'au tunnel menant au Lac Hylia, récupérez la bouteille au fond, puis donnez la lettre au Roi Zora.</description>
+  </item>
+  <item id="oot-bottle-04">
+    <game>oot</game>
+    <category>bouteille</category>
+    <number>4</number>
+    <name>Chasseur de Fantômes</name>
+    <location>Marché (adulte)</location>
+    <era>Les deux</era>
+    <requirement>10 Grands Poe</requirement>
+    <description>Chassez les 10 Grands Poe dispersés dans la Plaine d'Hyrule à cheval avec l'Arc, capturez leurs esprits, puis livrez-les tous au Marchand de Poe.</description>
+  </item>
+  <item id="ww-bottle-01">
+    <game>ww</game>
+    <category>bouteille</category>
+    <number>1</number>
+    <name>Cadeau de Medli</name>
+    <location>Île Dragon Roost</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Aidez Medli à atteindre l'entrée de la Caverne Dragon Roost (portez-la et lancez-la vers la corniche avec le vent favorable) ; elle vous offre la bouteille en remerciement. Bouteille obligatoire pour l'histoire.</description>
+  </item>
+  <item id="ww-bottle-02">
+    <game>ww</game>
+    <category>bouteille</category>
+    <number>2</number>
+    <name>Sous-marin de l'Île de la Bombe</name>
+    <location>Île de la Bombe</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Repérez le sous-marin au sud de l'île grâce au vieux Ho Ho, entrez et vainquez les Bokoblins pour récupérer la bouteille dans le coffre.</description>
+  </item>
+  <item id="ww-bottle-03">
+    <game>ww</game>
+    <category>bouteille</category>
+    <number>3</number>
+    <name>Achat chez Barterie masqué</name>
+    <location>Île du Rocher-Épine</location>
+    <era>Les deux</era>
+    <requirement>500 rubis</requirement>
+    <description>Le bateau-boutique itinérant du Barterie masqué vend une bouteille vide pour 500 rubis.</description>
+  </item>
+  <item id="ww-bottle-04">
+    <game>ww</game>
+    <category>bouteille</category>
+    <number>4</number>
+    <name>Mila la nécessiteuse</name>
+    <location>Île Mercantîle (nuit)</location>
+    <era>Les deux</era>
+    <requirement>Après la Forteresse Oubliée</requirement>
+    <description>Trouvez Mila près de chez Zunari la nuit, suivez-la discrètement sans vous faire repérer jusqu'à la cachette, puis répondez correctement à ses questions pour recevoir la bouteille.</description>
+  </item>
+  <item id="oot-fairy-01">
+    <game>oot</game>
+    <category>fee</category>
+    <number>1</number>
+    <name>Magie + Attaque Tourbillon</name>
+    <location>Sommet de la Montagne du Péril</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le mur fissuré près du hibou, au sommet du sentier. La Grande Fée offre la Jauge de Magie et débloque l'Attaque Tourbillon.</description>
+  </item>
+  <item id="oot-fairy-02">
+    <game>oot</game>
+    <category>fee</category>
+    <number>2</number>
+    <name>Feu de Din</name>
+    <location>Route du Château d'Hyrule</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Sur le chemin vers le château, faites exploser le rocher bloquant un passage sur la droite pour atteindre la fontaine et obtenir le sort Feu de Din.</description>
+  </item>
+  <item id="oot-fairy-03">
+    <game>oot</game>
+    <category>fee</category>
+    <number>3</number>
+    <name>Magie x2 (Double Magie)</name>
+    <location>Colosse du Désert (nord-est)</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le mur fissuré dans le quadrant nord-est du Colosse pour doubler la capacité de la jauge de magie.</description>
+  </item>
+  <item id="oot-fairy-04">
+    <game>oot</game>
+    <category>fee</category>
+    <number>4</number>
+    <name>Vent de Farore</name>
+    <location>Fontaine Zora (presqu'île sud-est)</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le rocher clair sur la petite presqu'île pour révéler une grotte menant à la fontaine et obtenir le sort de téléportation.</description>
+  </item>
+  <item id="oot-fairy-05">
+    <game>oot</game>
+    <category>fee</category>
+    <number>5</number>
+    <name>Amour de Nayru</name>
+    <location>Colosse du Désert (ouest)</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Entre deux palmiers contre la paroi ouest du Colosse se cache un mur fissuré (repérable à la Lentille de Vérité) menant au sort Amour de Nayru.</description>
+  </item>
+  <item id="oot-fairy-06">
+    <game>oot</game>
+    <category>fee</category>
+    <number>6</number>
+    <name>Défense x2 (Double Défense)</name>
+    <location>Devant le Château de Ganon</location>
+    <era>Les deux</era>
+    <requirement>Gantelets Dorés</requirement>
+    <description>Une fois les Gantelets Dorés obtenus dans le Château de Ganon, soulevez l'immense pilier près du mur pour révéler la dernière fontaine, qui double la résistance aux dégâts.</description>
+  </item>
+  <item id="ww-fairy-01">
+    <game>ww</game>
+    <category>fee</category>
+    <number>1</number>
+    <name>Porte-monnaie (1000 rubis)</name>
+    <location>Forêt aux Fées, Île Accalmie</location>
+    <era>Les deux</era>
+    <requirement>Bombes, Feuille Deku</requirement>
+    <description>Depuis le sommet de l'île, planez au-dessus du pont brisé avec la Feuille Deku, puis faites exploser le rocher qui bloque la fontaine.</description>
+  </item>
+  <item id="ww-fairy-02">
+    <game>ww</game>
+    <category>fee</category>
+    <number>2</number>
+    <name>Plus Grand Porte-monnaie (5000 rubis)</name>
+    <location>Île de la Fée du Nord</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le rocher à l'entrée de la fontaine pour obtenir la capacité maximale de rubis.</description>
+  </item>
+  <item id="ww-fairy-03">
+    <game>ww</game>
+    <category>fee</category>
+    <number>3</number>
+    <name>Plus Grand Sac à Bombes (60)</name>
+    <location>Île de la Fée de l'Est</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser le rocher qui bloque l'entrée du coquillage géant pour doubler votre capacité en bombes.</description>
+  </item>
+  <item id="ww-fairy-04">
+    <game>ww</game>
+    <category>fee</category>
+    <number>4</number>
+    <name>Sac à Bombes Maximal (99)</name>
+    <location>Île de la Fée du Sud</location>
+    <era>Les deux</era>
+    <requirement>Bombes</requirement>
+    <description>Faites exploser les planches qui bloquent l'entrée pour porter votre capacité de bombes à son maximum.</description>
+  </item>
+  <item id="ww-fairy-05">
+    <game>ww</game>
+    <category>fee</category>
+    <number>5</number>
+    <name>Carquois Agrandi (60 flèches)</name>
+    <location>Île de la Fée Épineuse</location>
+    <era>Les deux</era>
+    <requirement>Marteau Skull</requirement>
+    <description>Utilisez le Marteau Skull pour enfoncer les piquets qui bloquent l'entrée du coquillage et augmenter votre réserve de flèches.</description>
+  </item>
+  <item id="ww-fairy-06">
+    <game>ww</game>
+    <category>fee</category>
+    <number>6</number>
+    <name>Carquois Maximal (99 flèches)</name>
+    <location>Île de la Fée de l'Ouest</location>
+    <era>Les deux</era>
+    <requirement>Marteau Skull</requirement>
+    <description>Enfoncez le piquet qui bloque l'entrée pour éteindre les flammes, puis récupérez la capacité maximale de flèches.</description>
+  </item>
+  <item id="ww-fairy-07">
+    <game>ww</game>
+    <category>fee</category>
+    <number>7</number>
+    <name>Jauge de Magie x2</name>
+    <location>Récif aux Deux Yeux</location>
+    <era>Les deux</era>
+    <requirement>Aucune</requirement>
+    <description>Approchez le rassemblement de mouettes pour faire apparaître un Grand Octogonien ; sa défaite fait apparaître la fée qui double la jauge de magie.</description>
+  </item>
+  <item id="ww-fairy-08">
+    <game>ww</game>
+    <category>fee</category>
+    <number>8</number>
+    <name>Tourbillon Ouragan (bonus, hors Grande Fée)</name>
+    <location>Île Accalmie</location>
+    <era>Les deux</era>
+    <requirement>10 Blasons de Chevalier</requirement>
+    <description>Donnez 10 Blasons de Chevalier (butin des Chevaliers Noirs) à Orca pour apprendre cette technique d'attaque tournoyante prolongée.</description>
+  </item>
+</collectibles>

@@ -1,0 +1,9 @@
+id,game,category,number,name,location,era,requirement,description
+ww-fairy-01,ww,fee,1,Porte-monnaie (1000 rubis),"Forêt aux Fées, Île Accalmie",Les deux,"Bombes, Feuille Deku","Depuis le sommet de l'île, planez au-dessus du pont brisé avec la Feuille Deku, puis faites exploser le rocher qui bloque la fontaine."
+ww-fairy-02,ww,fee,2,Plus Grand Porte-monnaie (5000 rubis),Île de la Fée du Nord,Les deux,Bombes,Faites exploser le rocher à l'entrée de la fontaine pour obtenir la capacité maximale de rubis.
+ww-fairy-03,ww,fee,3,Plus Grand Sac à Bombes (60),Île de la Fée de l'Est,Les deux,Bombes,Faites exploser le rocher qui bloque l'entrée du coquillage géant pour doubler votre capacité en bombes.
+ww-fairy-04,ww,fee,4,Sac à Bombes Maximal (99),Île de la Fée du Sud,Les deux,Bombes,Faites exploser les planches qui bloquent l'entrée pour porter votre capacité de bombes à son maximum.
+ww-fairy-05,ww,fee,5,Carquois Agrandi (60 flèches),Île de la Fée Épineuse,Les deux,Marteau Skull,Utilisez le Marteau Skull pour enfoncer les piquets qui bloquent l'entrée du coquillage et augmenter votre réserve de flèches.
+ww-fairy-06,ww,fee,6,Carquois Maximal (99 flèches),Île de la Fée de l'Ouest,Les deux,Marteau Skull,"Enfoncez le piquet qui bloque l'entrée pour éteindre les flammes, puis récupérez la capacité maximale de flèches."
+ww-fairy-07,ww,fee,7,Jauge de Magie x2,Récif aux Deux Yeux,Les deux,Aucune,Approchez le rassemblement de mouettes pour faire apparaître un Grand Octogonien ; sa défaite fait apparaître la fée qui double la jauge de magie.
+ww-fairy-08,ww,fee,8,"Tourbillon Ouragan (bonus, hors Grande Fée)",Île Accalmie,Les deux,10 Blasons de Chevalier,Donnez 10 Blasons de Chevalier (butin des Chevaliers Noirs) à Orca pour apprendre cette technique d'attaque tournoyante prolongée.
