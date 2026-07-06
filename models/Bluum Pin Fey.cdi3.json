@@ -1,0 +1,87 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "---------"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "Swing 1"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "Swing 2"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "Swing 3"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "Swing 4"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "Swing 5"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "Swing 6"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "Swing 7"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "Squish 1"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "Squish 2"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "Squish 3"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "Squish 4"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "Squish 5"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": []
+}

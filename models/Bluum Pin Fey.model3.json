@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Bluum Pin Fey.moc3",
+		"Textures": [
+			"Bluum Pin Fey.2048/texture_00.png"
+		],
+		"Physics": "Bluum Pin Fey.physics3.json",
+		"DisplayInfo": "Bluum Pin Fey.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
