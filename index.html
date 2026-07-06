@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nele Wiki — Accueil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/icon.png">
+<script>
+(function(){
+  try{
+    var saved = localStorage.getItem('hyrule-trove-theme');
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }catch(e){}
+})();
+</script>
+</head>
+<body data-page="index">
+
+<div id="header-placeholder"></div>
+<script src="theme.js"></script>
+<script src="include-header.js"></script>
+
+<main id="top">
+  <section class="hero">
+    <span class="eyebrow">Base de données non officielle</span>
+    <h1>Guide Non-Officiel des <span class="hero-highlight">Trésors</span><br>de The Legend of Zelda</h1>
+    <p class="hero-sub">Quarts de cœur, bouteilles et cadeaux des Grandes Fées pour <strong>Ocarina of Time</strong> et <strong>The Wind Waker</strong> avec l'emplacement exact et la marche à suivre pour chacun.</p>
+  </section>
+
+  <section class="game-picker">
+    <a class="game-card game-card-oot" href="ocarina-of-time.html">
+      <span class="game-card-eyebrow">Épisode N64 · 1998</span>
+      <h2>Ocarina of Time</h2>
+      <div class="game-card-stats">
+        <div><strong>36</strong><span>quarts de cœur</span></div>
+        <div><strong>4</strong><span>bouteilles</span></div>
+        <div><strong>6</strong><span>dons des Grandes Fées</span></div>
+      </div>
+      <span class="game-card-cta">voir le guide →</span>
+    </a>
+    <a class="game-card game-card-ww" href="wind-waker.html">
+      <span class="game-card-eyebrow">Épisode GameCube · 2002</span>
+      <h2>The Wind Waker</h2>
+      <div class="game-card-stats">
+        <div><strong>44</strong><span>quarts de cœur</span></div>
+        <div><strong>4</strong><span>bouteilles</span></div>
+        <div><strong>8</strong><span>dons des Grandes Fées</span></div>
+      </div>
+      <span class="game-card-cta">voir le guide →</span>
+    </a>
+  </section>
+
+  <section class="how-it-works">
+    <h2 class="section-title">Comment ça marche</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-num">1</span>
+        <h3>Choisissez un jeu</h3>
+        <p>Chaque jeu a sa propre page, choisissez celui qui vous concerne.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">2</span>
+        <h3>Filtrez et cherchez</h3>
+        <p>Par catégorie (cœurs, bouteilles, fées) ou par mot-clé : un lieu, un objet requis…</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">3</span>
+        <h3>Cliquez pour les détails</h3>
+        <p>Chaque carte s'ouvre en fiche complète avec la marche à suivre pas à pas.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">4</span>
+        <h3>Exportez si besoin</h3>
+        <p>Toutes les données sont libres, en JSON, CSV ou XML, par jeu ou en un seul fichier.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="downloads-section" id="downloads">
+    <h2 class="section-title">Base de données à télécharger</h2>
+    <p>Toutes les données de ce site sont ouvertes et téléchargeables, par catégorie ou en un seul fichier, dans le format de votre choix.</p>
+    <div class="downloads-grid">
+      <div class="dl-card">
+        <h3>Tout en un</h3>
+        <p>Les 102 entrées (cœurs, bouteilles, fées), les deux jeux confondus.</p>
+        <div class="dl-links">
+          <a href="database/all_collectibles.json" download>JSON</a>
+          <a href="database/all_collectibles.csv" download>CSV</a>
+          <a href="database/all_collectibles.xml" download>XML</a>
+        </div>
+      </div>
+      <div class="dl-card">
+        <h3>Ocarina of Time</h3>
+        <p>36 quarts de cœur · 4 bouteilles · 6 Grandes Fées.</p>
+        <div class="dl-links">
+          <a href="database/oot_coeur.json" download>Cœurs (JSON)</a>
+          <a href="database/oot_coeur.csv" download>Cœurs (CSV)</a>
+          <a href="database/oot_bouteille.json" download>Bouteilles (JSON)</a>
+          <a href="database/oot_bouteille.csv" download>Bouteilles (CSV)</a>
+          <a href="database/oot_fee.json" download>Fées (JSON)</a>
+          <a href="database/oot_fee.csv" download>Fées (CSV)</a>
+        </div>
+      </div>
+      <div class="dl-card">
+        <h3>The Wind Waker</h3>
+        <p>44 quarts de cœur · 4 bouteilles · 8 améliorations de Grandes Fées.</p>
+        <div class="dl-links">
+          <a href="database/ww_coeur.json" download>Cœurs (JSON)</a>
+          <a href="database/ww_coeur.csv" download>Cœurs (CSV)</a>
+          <a href="database/ww_bouteille.json" download>Bouteilles (JSON)</a>
+          <a href="database/ww_bouteille.csv" download>Bouteilles (CSV)</a>
+          <a href="database/ww_fee.json" download>Fées (JSON)</a>
+          <a href="database/ww_fee.csv" download>Fées (CSV)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="site-footer">
+  <p>© 2026 Nele Wiki <br>
+    Zelda is a registered trademark of Nintendo of America and we do not claim to own them.</p>
+</footer>
+
+
+</body>
+</html>

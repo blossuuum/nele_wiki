@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nele Wiki — À propos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/icon.png">
+<script>
+(function(){
+  try{
+    var saved = localStorage.getItem('hyrule-trove-theme');
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }catch(e){}
+})();
+</script>
+</head>
+<body data-page="about">
+
+<div id="header-placeholder"></div>
+<script src="theme.js"></script>
+<script src="include-header.js"></script>
+
+<main id="top">
+  <section class="hero">
+    <span class="eyebrow">À propos</span>
+    <h1>À propos de  <span class="hero-highlight">Nele Wiki</span></h1>
+    <p class="hero-sub">Guide Non officiel de TLOZ</p>
+  </section>
+
+  <div class="about-layout">
+    <div class="about-content">
+
+      <article class="about-card">
+        <h2>Qu'est-ce que Nele Wiki ?</h2>
+        <p>Nele Wiki est une base de données non officielle recensant les quarts de cœur, les bouteilles et les cadeaux des Grandes Fées dans <strong>Ocarina of Time</strong> et <strong>The Wind Waker</strong>.</p>
+        <p>L'objectif est simple : proposer un guide clair, rapide à consulter et sans publicité, avec l'emplacement exact de chaque collectible et la marche à suivre complète pour l'obtenir.</p>
+        <p>Toutes les données du site sont libres et téléchargeables en JSON, CSV ou XML depuis la page d'accueil.</p>
+      </article>
+
+      <article class="about-card">
+        <div class="about-creator-head">
+          <img class="about-avatar" src="images/creatrice.png" alt="Avatar de Blossum">
+          <h2 style="margin-bottom:0;">À propos de la créatrice</h2>
+        </div>
+        <p>Moi c'est Blossum ! Grosse fan de la licence depuis ma plus tendre enfance, j'avais pour projet de créer un petit guide non officiel de tous les check utiles tel que les Grandes Fées, les bouteilles ou encore les quarts de coeur !</p>
+        <p>Je suis essentiellement Vtubeuse et Illustratice, mais il m'arrive souvent de coder pour rendre ma vie plus simple (*˘︶˘*).｡.:*♡</p>
+      </article>
+
+      <article class="about-card">
+        <h2>Support</h2>
+        <p>Nele Wiki restera toujours gratuit et sans publicité. Si le site t'a été utile et que tu as envie de soutenir sa création, un petit café fait toujours plaisir. ☕</p>
+        <a class="kofi-btn" href="https://ko-fi.com/blossuuum" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v1h1.5A2.5 2.5 0 0 1 23 9.5v3A4.5 4.5 0 0 1 18.5 17H18a5 5 0 0 1-5 4H7a5 5 0 0 1-5-5V6zm17 5v3a2.5 2.5 0 0 0 0-5v2z"/></svg>
+          Me soutenir sur Ko-fi
+        </a>
+      </article>
+
+    </div>
+
+    <aside class="live2d-panel">
+      <div class="live2d-canvas-wrap" id="live2dCanvasWrap">
+        <canvas id="live2dCanvas"></canvas>
+        <div class="live2d-status" id="live2dStatus">Chargement du modèle…</div>
+      </div>
+      <span class="live2d-credit">Modèle @Naeloy</span>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Nele Wiki <br>
+    Zelda is a registered trademark of Nintendo of America and we do not claim to own them.</p>
+</footer>
+
+<!-- Live2D Cubism 4 runtime + Pixi.js + pixi-live2d-display -->
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.10/dist/browser/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/cubism4.min.js"></script>
+<script src="live2d.js"></script>
+
+</body>
+</html>
