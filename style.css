@@ -47,13 +47,13 @@ html[data-theme="dark"]{
   --accent: #5aa8ef;
   --accent-deep: #7fbcf5;
   --accent-pale: #1d3a5c;
-  --coeur: #7ca3ec;
+  --coeur: #668ed8;
   --coeur-pale: #3a2431;
   --bouteille: #2fa6c4;
   --bouteille-pale: #133840;
   --fee: #60b1a3;
   --fee-pale: #3a2f14;
-  --chip-all-bg: #060d16;
+  --chip-all-bg: #133e75;
   --shadow: 0 14px 34px -14px rgba(0,0,0,0.55);
   --shadow-sm: 0 8px 18px -8px rgba(0,0,0,0.5);
   --border-soft: #24354e;
