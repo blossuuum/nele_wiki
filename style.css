@@ -112,7 +112,7 @@ html[data-theme="dark"] .logo-icon{ color: #5aa8ef; }
 .logo-text{ font-family: 'ZeldaTitle', var(--font-display); }
 
 
-.top-nav{ display:flex; gap: 6px; flex:1; }
+.top-nav{ display:flex; gap: 10px; flex:1; }
 .top-nav a{
   text-decoration:none; font-weight:700; color: var(--ink-soft); font-size:.92rem;
   white-space:nowrap; padding: 8px 14px; border-radius: var(--radius-pill);
@@ -121,7 +121,7 @@ html[data-theme="dark"] .logo-icon{ color: #5aa8ef; }
 .top-nav a:hover{ background: var(--accent-pale); color: var(--accent-deep); }
 .top-nav a.active{ background: var(--accent); color:#fff; }
 
-.nav-dropdown{ position:relative; margin-left: 10px; margin-right: 8px; }
+.nav-dropdown{ position:relative;  }
 .nav-dropdown-trigger{
   display:flex; align-items:center; gap:6px;
   font: inherit; font-weight:700; color: var(--ink-soft); font-size:.92rem;
