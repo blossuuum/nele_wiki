@@ -47,13 +47,13 @@ html[data-theme="dark"]{
   --accent: #5aa8ef;
   --accent-deep: #7fbcf5;
   --accent-pale: #1d3a5c;
-  --coeur: #668ed8;
+  --coeur: #7ca3ec;
   --coeur-pale: #3a2431;
   --bouteille: #2fa6c4;
   --bouteille-pale: #133840;
   --fee: #60b1a3;
   --fee-pale: #3a2f14;
-  --chip-all-bg: #133e75;
+  --chip-all-bg: #060d16;
   --shadow: 0 14px 34px -14px rgba(0,0,0,0.55);
   --shadow-sm: 0 8px 18px -8px rgba(0,0,0,0.5);
   --border-soft: #24354e;
@@ -445,6 +445,57 @@ html[data-theme="dark"] .icon-sun{ display:none; }
   .about-layout{ grid-template-columns: 1fr; }
   .live2d-panel{ position:static; order:-1; max-width:320px; margin:0 auto; width:100%; }
 }
+/* ---------- Suivi / Discord auth / Checklist ---------- */
+.auth-section{ max-width: 640px; margin: 0 auto; padding: 0 24px 30px; display:flex; justify-content:center; }
+.auth-card{
+  background: var(--surface); border-radius: var(--radius-lg); padding: 26px 30px;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--border-soft);
+  display:flex; flex-direction:column; align-items:center; gap:14px; text-align:center; width:100%;
+}
+.auth-card p{ color: var(--ink-soft); margin:0; }
+.user-card{ flex-direction:row; justify-content:center; flex-wrap:wrap; }
+.user-avatar{ width:44px; height:44px; border-radius:50%; object-fit:cover; }
+.user-name{ font-family: var(--font-display); font-weight:700; color: var(--ink); }
+
+.btn-discord{ background:#5865F2; color:#fff; display:inline-flex; align-items:center; gap:10px; }
+.btn-discord:hover{ background:#4752c4; }
+.btn-ghost{ background: var(--surface-soft); color: var(--ink-soft); box-shadow:none; }
+.btn-ghost:hover{ background: var(--accent-pale); color: var(--accent-deep); }
+
+.checklist-section{ max-width: 900px; margin: 0 auto; padding: 0 24px 70px; }
+
+.progress-wrap{ display:flex; align-items:center; gap:16px; margin-bottom:26px; }
+.progress-bar{ flex:1; height:12px; border-radius: var(--radius-pill); background: var(--surface-soft); overflow:hidden; }
+.progress-bar-fill{ height:100%; width:0%; background: var(--accent); border-radius: var(--radius-pill); transition: width .25s ease; }
+.progress-text{ font-weight:800; color: var(--ink-soft); white-space:nowrap; font-size:.9rem; }
+
+.game-toggle-row{ display:flex; justify-content:center; margin-bottom:18px; }
+
+.check-list{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
+.check-row{
+  display:flex; align-items:center; gap:14px;
+  background: var(--surface); border-radius: var(--radius-md); padding: 14px 18px;
+  border: 1px solid var(--border-soft); cursor:pointer;
+  transition: border-color .15s ease, background .15s ease;
+}
+.check-row:hover{ border-color: var(--accent-pale); }
+.check-row.is-checked{ background: var(--accent-pale); }
+.check-input{ position:absolute; opacity:0; width:0; height:0; }
+.check-box{
+  width:22px; height:22px; border-radius:7px; border: 2px solid var(--border-soft);
+  background: var(--surface-soft); flex-shrink:0; position:relative; transition: all .15s ease;
+}
+.check-row.is-checked .check-box{ background: var(--accent); border-color: var(--accent); }
+.check-row.is-checked .check-box::after{
+  content:''; position:absolute; left:6px; top:2px; width:6px; height:11px;
+  border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(40deg);
+}
+.check-icon{ width:22px; height:22px; object-fit:contain; flex-shrink:0; }
+.check-info{ display:flex; flex-direction:column; gap:2px; }
+.check-name{ font-family: var(--font-display); font-weight:700; color: var(--ink); font-size:.95rem; }
+.check-row.is-checked .check-name{ text-decoration: line-through; opacity:.7; }
+.check-location{ font-size:.8rem; color: var(--ink-soft); }
+
 /* ---------- Footer ---------- */
 .site-footer{ text-align:center; padding: 26px; color: var(--ink-soft); font-size:.85rem; border-top: 1px solid var(--border-soft);}
 
@@ -511,6 +562,11 @@ html[data-theme="dark"] .icon-sun{ display:none; }
 
   .modal-card{ padding:22px; max-height:88vh; }
   .modal-card .card-name{ font-size:1.15rem; }
+
+  .auth-section{ padding: 0 16px 24px; }
+  .auth-card{ padding: 20px; }
+  .checklist-section{ padding: 0 16px 50px; }
+  .check-row{ padding: 12px 14px; }
 }
 
 @media (max-width: 420px){
