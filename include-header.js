@@ -14,6 +14,12 @@
         mount.querySelectorAll('a[data-page="' + page + '"]').forEach(function (link) {
           link.classList.add('active');
         });
+        if (page === 'oot' || page === 'ww') {
+          var trigger = mount.querySelector('.nav-dropdown-trigger');
+          if (trigger) trigger.classList.add('active');
+          var group = mount.querySelector('.mobile-nav-group');
+          if (group) { group.classList.add('has-active'); group.open = true; }
+        }
       }
       if (window.wireThemeToggle) window.wireThemeToggle();
       if (window.wireMobileMenu) window.wireMobileMenu();
