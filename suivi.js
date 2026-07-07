@@ -18,6 +18,7 @@
   var listWrap = document.getElementById('checklistWrap');
   var progressText = document.getElementById('progressText');
   var progressBarFill = document.getElementById('progressBarFill');
+  var resetProgressBtn = document.getElementById('resetProgressBtn');
   var resetBtn = document.getElementById('resetFilters');
 
   var CAT_LABELS = { coeur: 'Quart de cœur', bouteille: 'Bouteille', fee: 'Grande Fée' };
@@ -44,12 +45,43 @@
     });
   }
 
+  function itemsForGame(game) {
+    return game === 'all' ? ZELDA_DATA : ZELDA_DATA.filter(function (r) { return r.game === game; });
+  }
+
   function updateProgress() {
-    var total = ZELDA_DATA.length;
-    var done = checkedIds.size;
+    var items = itemsForGame(state.game);
+    var total = items.length;
+    var done = items.filter(function (r) { return checkedIds.has(r.id); }).length;
     var pct = total ? Math.round((done / total) * 100) : 0;
     progressText.textContent = done + ' / ' + total + ' obtenus (' + pct + '%)';
     progressBarFill.style.width = pct + '%';
+
+    if (resetProgressBtn) {
+      resetProgressBtn.textContent = state.game === 'all'
+        ? 'Tout réinitialiser'
+        : 'Réinitialiser ' + GAME_LABELS[state.game];
+    }
+  }
+
+  function resetProgress() {
+    var items = itemsForGame(state.game);
+    var label = state.game === 'all' ? 'toute ta progression' : ('ta progression sur ' + GAME_LABELS[state.game]);
+    if (!confirm('Réinitialiser ' + label + ' ? Cette action est irréversible.')) return;
+
+    var ids = items.map(function (r) { return r.id; });
+    ids.forEach(function (id) { checkedIds.delete(id); });
+    render();
+    updateProgress();
+
+    if (currentUser && ids.length) {
+      supabase.from('progress').delete()
+        .eq('user_id', currentUser.id)
+        .in('item_id', ids)
+        .then(function (res) {
+          if (res.error) console.error('Erreur de réinitialisation :', res.error);
+        });
+    }
   }
 
   function rowHTML(r) {
@@ -157,6 +189,8 @@
     supabase.auth.signOut().then(function () { showLoggedOut(); });
   });
 
+  if (resetProgressBtn) resetProgressBtn.addEventListener('click', resetProgress);
+
   chips.forEach(function (chip) {
     chip.addEventListener('click', function () {
       chips.forEach(function (c) { c.classList.remove('active'); });
@@ -173,6 +207,7 @@
       btn.setAttribute('aria-selected', 'true');
       state.game = btn.dataset.game;
       render();
+      updateProgress();
     });
   });
 
