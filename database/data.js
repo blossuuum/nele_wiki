@@ -918,11 +918,11 @@ const ZELDA_DATA = [
     "game": "ww",
     "category": "bouteille",
     "number": 1,
-    "name": "Cadeau de Médolie",
-    "location": "Île du Dragon",
+    "name": "Cadeau de Mélodie",
+    "location": "Île du Dragon | F2",
     "era": "N/A",
     "requirement": "Aucune",
-    "description": "Aidez Médolie à atteindre l'entrée de la Caverne du Dragon (portez-la et lancez-la vers la corniche avec le vent favorable) ; elle vous offre la bouteille en remerciement. Bouteille obligatoire pour l'histoire."
+    "description": "Aidez Mélodie à atteindre l'entrée de la Caverne du Dragon (portez-la et lancez-la vers la corniche avec le vent favorable) ; elle vous offre la bouteille en remerciement. Bouteille obligatoire pour l'histoire."
   },
   {
     "id": "ww-bottle-02",
@@ -930,7 +930,7 @@ const ZELDA_DATA = [
     "category": "bouteille",
     "number": 2,
     "name": "Sous-marin de l'Île de la Bombe",
-    "location": "Île de la Bombe",
+    "location": "Île de la Bombe | F5",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Repérez le sous-marin au sud de l'île grâce au vieux Ho Ho, entrez et vainquez les Bokoblins pour récupérer la bouteille dans le coffre."
