@@ -1,0 +1,45 @@
+id,game,category,number,name,location,era,requirement,description
+ww-heart-01,ww,coeur,1,Quart de cœur n°1,Forteresse Maudite,N/A,Aucune,"Dans la cellule voisine de la vôtre, déplacez les tonneaux pour révéler un interrupteur qui ouvre la grille d'une cellule contenant un coffre."
+ww-heart-02,ww,coeur,2,Quart de cœur n°2,Île Mercantîle,N/A,Aucune,Gagnez à cache-cache contre les Abeilles Tueuses ; Ivan vous récompense.
+ww-heart-03,ww,coeur,3,Quart de cœur n°3,Île Mercantîle,N/A,10 rubis,Réussissez le mini-jeu « Navires en perdition » de Salvatore en moins de 24 tirs de canon.
+ww-heart-04,ww,coeur,4,Quart de cœur n°4,Île de la Griffe,N/A,Aucune,"Rampez dans le dôme au centre de l'île, vainquez les Chuchus Rouges dans la grotte, puis ouvrez le coffre au bout du chemin."
+ww-heart-05,ww,coeur,5,Quart de cœur n°5,Toute boîte aux lettres,N/A,Aucune,"Triez 25 lettres pour Baito au bureau de poste de l'Île de Vaisserang, postez sa lettre, puis récupérez la réponse de sa mère qui contient le quart de cœur."
+ww-heart-06,ww,coeur,6,Quart de cœur n°6,Toute boîte aux lettres,N/A,Perle de Farore,"Après avoir terminé le Bois Interdit, une lettre du Chef Rito arrive dans n'importe quelle boîte aux lettres."
+ww-heart-07,ww,coeur,7,Quart de cœur n°7,Îlots des Cinq Étoiles,N/A,Charte au trésor n°33,Utilisez la charte pour localiser le trésor englouti et remontez-le.
+ww-heart-08,ww,coeur,8,Quart de cœur n°8,Îlots des Cinq Étoiles,N/A,Aucune,"Entrez dans le sous-marin au sud de l'îlot, vainquez les ennemis à l'intérieur et ouvrez le coffre."
+ww-heart-09,ww,coeur,9,Quart de cœur n°9,Îles Anguleuses,N/A,Charte au trésor n°15,Utilisez la charte pour localiser le coffre englouti contenant le quart de cœur.
+ww-heart-10,ww,coeur,10,Quart de cœur n°10,Îles Anguleuses,N/A,Aucune,"Sur la plus grande île, poussez et tirez les blocs pour grimper jusqu'au sommet et ouvrir le coffre."
+ww-heart-11,ww,coeur,11,Quart de cœur n°11,Île de la Pierre Tombale,N/A,Poire Hyoi,Prenez le contrôle d'une mouette avec une Poire Hyoi et volez jusqu'au sommet de l'île pour attraper le quart de cœur.
+ww-heart-12,ww,coeur,12,Quart de cœur n°12,Île du Contrefort en Diamant,N/A,Charte au trésor n°23,"Repérez la zone de lumière indiquée par la charte, puis remontez et ouvrez le coffre."
+ww-heart-13,ww,coeur,13,Quart de cœur n°13,Îlot du Rocher-Aiguille,N/A,Poire Hyoi,"Contrôlez une mouette jusqu'au sommet pour activer un interrupteur, ce qui éteint les flammes protégeant un coffre en contrebas."
+ww-heart-14,ww,coeur,14,Quart de cœur n°14,Île du Grand Poisson,N/A,Feuille Deku,"Grimpez au sommet de la petite île, réglez le vent puis planez au nord-ouest jusqu'à une corniche avec un coffre."
+ww-heart-15,ww,coeur,15,Quart de cœur n°15,Récif aux Six Yeux,N/A,Aucune,"Montez à bord du sous-marin au sud-ouest, vainquez les trois Moblins à l'intérieur, puis grimpez l'échelle jusqu'au coffre."
+ww-heart-16,ww,coeur,16,Quart de cœur n°16,Île Accalmie,N/A,Aucune,Relevez le défi d'Orca : le toucher 500 fois avec votre épée sans être touché trois fois.
+ww-heart-17,ww,coeur,17,Quart de cœur n°17,Île du Veilleur de Pierre,N/A,Canon,"Détruisez les canons sous la plateforme de guet ennemie, grimpez et ouvrez le coffre qui apparaît."
+ww-heart-18,ww,coeur,18,Quart de cœur n°18,Île de Tingle,N/A,Canon ou Boomerang,"Vainquez le Grand Octogonien au nord de l'île, puis utilisez le Grappin pour remonter le trésor qu'il laisse tomber."
+ww-heart-19,ww,coeur,19,Quart de cœur n°19,Île du Spectacle,N/A,50 rubis,Jouez au mini-jeu de tir au canon installé par Salvatore et terminez-le avec succès.
+ww-heart-20,ww,coeur,20,Quart de cœur n°20,Île Mercantîle,N/A,Beaucoup de rubis,Participez aux enchères nocturnes à l'Hôtel des Ventes jusqu'à remporter celle du quart de cœur.
+ww-heart-21,ww,coeur,21,Quart de cœur n°21,Île Mercantîle,N/A,Boîte à Pictos Deluxe,"Prenez une photo en couleur de Linda, donnez-la à Anton, puis retrouvez Linda au café pour recevoir sa récompense."
+ww-heart-22,ww,coeur,22,Quart de cœur n°22,Île du Croissant de Lune,N/A,Charte au trésor n°11,Utilisez la charte pour localiser puis remonter le trésor englouti.
+ww-heart-23,ww,coeur,23,Quart de cœur n°23,Îlots des Sept Étoiles,N/A,Canon ou Boomerang,Vainquez le Grand Octogonien à 12 yeux qui garde cette zone.
+ww-heart-24,ww,coeur,24,Quart de cœur n°24,Toute boîte aux lettres,N/A,20 Plumes Dorées,"Donnez 20 Plumes Dorées au garde devant la chambre du Chef Rito, puis attendez la lettre de sa petite amie."
+ww-heart-25,ww,coeur,25,Quart de cœur n°25,Plateforme de Contrôle Aérien,N/A,Feuille Deku,Réglez le vent et utilisez les cyclones pour réussir le Concours de l'Homme-Oiseau ; une jauge de magie améliorée aide beaucoup.
+ww-heart-26,ww,coeur,26,Quart de cœur n°26,Île de la Bombe,N/A,Bombes,"Faites exploser le rocher central pour révéler une grotte, neutralisez les Magmenta qui bloquent le passage, puis ouvrez le coffre."
+ww-heart-27,ww,coeur,27,Quart de cœur n°27,Havre de la Forêt,N/A,Charte au trésor n°31,Utilisez la charte pour localiser et remonter le trésor contenant le quart de cœur.
+ww-heart-28,ww,coeur,28,Quart de cœur n°28,Récif aux Trois Yeux,N/A,Charte au trésor n°38,Repérez le point lumineux indiqué par la charte et remontez le trésor.
+ww-heart-29,ww,coeur,29,Quart de cœur n°29,Île de l'Étoile,N/A,Bombes,"Faites exploser le rocher menant à une grotte secrète, vainquez les ennemis à l'intérieur, puis ouvrez le coffre."
+ww-heart-30,ww,coeur,30,Quart de cœur n°30,Île Mercantîle,N/A,Aucune,"Achetez et plantez 14 pots de fleurs chez Zunari, répartis sur l'île, puis parlez à l'homme assis sur le banc."
+ww-heart-31,ww,coeur,31,Quart de cœur n°31,Île du Rocher-Épine,N/A,950 rubis,Achetez directement ce quart de cœur au bateau-boutique du Barterie masqué qui navigue autour de l'île.
+ww-heart-32,ww,coeur,32,Quart de cœur n°32,Île du Rocher-Épine,N/A,Canon,Coulez les deux navires ennemis qui patrouillent autour de l'île et récupérez leur butin.
+ww-heart-33,ww,coeur,33,Quart de cœur n°33,Île de la Fée du Sud,N/A,Charte au trésor n°4,Utilisez la charte pour localiser et remonter le trésor englouti.
+ww-heart-34,ww,coeur,34,Quart de cœur n°34,Île de la Griffe,N/A,Charte au trésor n°30,Utilisez la charte pour localiser et remonter un second trésor sur cette île.
+ww-heart-35,ww,coeur,35,Quart de cœur n°35,Île du Grand Poisson,N/A,Statue du Gourou,"Récompense finale de la Séquence des Marchands Ambulants, après avoir échangé la Statue du Gourou."
+ww-heart-36,ww,coeur,36,Quart de cœur n°36,N'importe où,N/A,Eau de Forêt,Arrosez le tout dernier Arbre Flétri restant avec de l'Eau de Forêt pour qu'il libère le quart de cœur.
+ww-heart-37,ww,coeur,37,Quart de cœur n°37,Île Mercantîle,N/A,Flèches de Feu,"Activez le moulin (interrupteur en haut de l'échelle), grimpez dessus lorsqu'il tourne, puis tirez une Flèche de Feu dans le phare pour le rallumer et parler à Kreeb."
+ww-heart-38,ww,coeur,38,Quart de cœur n°38,Île Mercantîle,N/A,"Flèches de Feu, Feuille Deku","Une fois le phare rallumé, planez avec la Feuille Deku jusqu'au petit îlot où un coffre nocturne est apparu."
+ww-heart-39,ww,coeur,39,Quart de cœur n°39,Île Mercantîle,N/A,Aucune,"Postez la lettre de Maggie à Moe, récupérez sa réponse auprès d'Ilari au café, puis rapportez-la à Maggie."
+ww-heart-40,ww,coeur,40,Quart de cœur n°40,Île du Rocher-Épine,N/A,Charte au trésor n°2,Utilisez la charte pour localiser et remonter le trésor englouti.
+ww-heart-41,ww,coeur,41,Quart de cœur n°41,Île Accalmie,N/A,Appât Universel,"Portez le grand cochon noir de l'autre côté du pont, puis jetez de l'Appât Universel sur la terre meuble pour qu'il déterre le quart de cœur."
+ww-heart-42,ww,coeur,42,Quart de cœur n°42,Île de la Bombe,N/A,Charte au trésor n°20,Utilisez la charte pour localiser et remonter le trésor englouti.
+ww-heart-43,ww,coeur,43,Quart de cœur n°43,Île de la Fée Épineuse,N/A,Charte au trésor n°5,Utilisez la charte pour localiser et remonter le trésor englouti.
+ww-heart-44,ww,coeur,44,Quart de cœur n°44,Récif aux Deux Yeux,N/A,Charte au trésor n°46,Utilisez la charte pour localiser le dernier trésor englouti du jeu (sur GameCube : récompense des 50 étages du Labyrinthe Sauvage à la place).

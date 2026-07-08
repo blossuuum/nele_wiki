@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nele Wiki — Ocarina of TIme</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/icon.png">
+<script>
+(function(){
+  try{
+    var saved = localStorage.getItem('hyrule-trove-theme');
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }catch(e){}
+})();
+</script>
+</head>
+<body data-page="oot">
+
+<div id="header-placeholder"></div>
+<script src="theme.js"></script>
+<script src="include-header.js"></script>
+
+<main id="top">
+  <section class="hero">
+    <span class="eyebrow">Nintendo 64 · 1998</span>
+    <h1>Guide de <span class="hero-highlight">Zelda Ocarina of Time</span></h1>
+    <p class="hero-sub">36 quarts de cœur, 4 bouteilles et 6 dons des Grandes Fées | cherchez, filtrez, et cliquez sur une carte pour voir la marche à suivre complète.</p>
+
+    <div class="search-row">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
+      </div>
+    </div>
+  </section>
+
+  <section class="filters-section">
+    <div class="filters-row">
+      <button class="chip chip-all active" data-cat="all">Tout <span class="chip-count" id="count-all">46</span></button>
+      <button class="chip chip-coeur" data-cat="coeur">
+        <img src="images/coeur.png" class="chip-icon" alt="">
+        Quarts de cœur <span class="chip-count" id="count-coeur">36</span>
+      </button>
+      <button class="chip chip-bouteille" data-cat="bouteille">
+        <img src="images/bouteille.png" class="chip-icon" alt="">
+        Bouteilles <span class="chip-count" id="count-bouteille">4</span>
+      </button>
+      <button class="chip chip-fee" data-cat="fee">
+        <img src="images/fee.png" class="chip-icon" alt="">
+        Grandes Fées <span class="chip-count" id="count-fee">6</span>
+      </button>
+    </div>
+    <div class="sort-row">
+      <label for="sortSelect">Trier par</label>
+      <select id="sortSelect">
+        <option value="default">Ordre par défaut</option>
+        <option value="name">Nom / lieu (A→Z)</option>
+      </select>
+      <span class="results-count" id="resultsCount"></span>
+    </div>
+  </section>
+
+  <section class="grid-section" id="grid-section">
+    <div class="card-grid" id="cardGrid"></div>
+    <p class="empty-state" id="emptyState" hidden>Aucun résultat pour cette recherche. Essayez un autre mot-clé, ou <button class="link-btn" id="resetFilters">réinitialiser les filtres</button>.</p>
+  </section>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="include-footer.js"></script>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal-card" id="modalCard" role="dialog" aria-modal="true"></div>
+</div>
+
+<script>window.PAGE_GAME = 'oot';</script>
+<script src="database/data.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

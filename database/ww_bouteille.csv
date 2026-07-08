@@ -1,0 +1,5 @@
+id,game,category,number,name,location,era,requirement,description
+ww-bottle-01,ww,bouteille,1,Cadeau de Médolie,Île du Dragon,Les deux,Aucune,Aidez Médolie à atteindre l'entrée de la Caverne du Dragon (portez-la et lancez-la vers la corniche avec le vent favorable) ; elle vous offre la bouteille en remerciement. Bouteille obligatoire pour l'histoire.
+ww-bottle-02,ww,bouteille,2,Sous-marin de l'Île de la Bombe,Île de la Bombe,Les deux,Aucune,"Repérez le sous-marin au sud de l'île grâce au vieux Ho Ho, entrez et vainquez les Bokoblins pour récupérer la bouteille dans le coffre."
+ww-bottle-03,ww,bouteille,3,Achat chez Barterie masqué,Île du Rocher-Épine,Les deux,500 rubis,Le bateau-boutique itinérant du Barterie masqué vend une bouteille vide pour 500 rubis.
+ww-bottle-04,ww,bouteille,4,Mila la nécessiteuse,Île Mercantîle (nuit),Les deux,Après la Forteresse Maudite,"Trouvez Mila près de chez Zunari la nuit, suivez-la discrètement sans vous faire repérer jusqu'à la cachette, puis répondez correctement à ses questions pour recevoir la bouteille."

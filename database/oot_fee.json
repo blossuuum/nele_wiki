@@ -1,0 +1,68 @@
+[
+  {
+    "id": "oot-fairy-01",
+    "game": "oot",
+    "category": "fee",
+    "number": 1,
+    "name": "Magie + Attaque Tourbillon",
+    "location": "Sommet de la Montagne du Péril",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Faites exploser le mur fissuré près du hibou, au sommet du sentier. La Grande Fée offre la Jauge de Magie et débloque l'Attaque Tourbillon."
+  },
+  {
+    "id": "oot-fairy-02",
+    "game": "oot",
+    "category": "fee",
+    "number": 2,
+    "name": "Feu de Din",
+    "location": "Route du Château d'Hyrule",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Sur le chemin vers le château, faites exploser le rocher bloquant un passage sur la droite pour atteindre la fontaine et obtenir le sort Feu de Din."
+  },
+  {
+    "id": "oot-fairy-03",
+    "game": "oot",
+    "category": "fee",
+    "number": 3,
+    "name": "Magie x2 (Double Magie)",
+    "location": "Colosse du Désert (nord-est)",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Faites exploser le mur fissuré dans le quadrant nord-est du Colosse pour doubler la capacité de la jauge de magie."
+  },
+  {
+    "id": "oot-fairy-04",
+    "game": "oot",
+    "category": "fee",
+    "number": 4,
+    "name": "Vent de Farore",
+    "location": "Fontaine Zora (presqu'île sud-est)",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Faites exploser le rocher clair sur la petite presqu'île pour révéler une grotte menant à la fontaine et obtenir le sort de téléportation."
+  },
+  {
+    "id": "oot-fairy-05",
+    "game": "oot",
+    "category": "fee",
+    "number": 5,
+    "name": "Amour de Nayru",
+    "location": "Colosse du Désert (ouest)",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Entre deux palmiers contre la paroi ouest du Colosse se cache un mur fissuré (repérable à la Lentille de Vérité) menant au sort Amour de Nayru."
+  },
+  {
+    "id": "oot-fairy-06",
+    "game": "oot",
+    "category": "fee",
+    "number": 6,
+    "name": "Défense x2 (Double Défense)",
+    "location": "Devant le Château de Ganon",
+    "era": "Les deux",
+    "requirement": "Gantelets Dorés",
+    "description": "Une fois les Gantelets Dorés obtenus dans le Château de Ganon, soulevez l'immense pilier près du mur pour révéler la dernière fontaine, qui double la résistance aux dégâts."
+  }
+]

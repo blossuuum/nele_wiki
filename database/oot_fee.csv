@@ -1,0 +1,7 @@
+id,game,category,number,name,location,era,requirement,description
+oot-fairy-01,oot,fee,1,Magie + Attaque Tourbillon,Sommet de la Montagne du Péril,Les deux,Bombes,"Faites exploser le mur fissuré près du hibou, au sommet du sentier. La Grande Fée offre la Jauge de Magie et débloque l'Attaque Tourbillon."
+oot-fairy-02,oot,fee,2,Feu de Din,Route du Château d'Hyrule,Les deux,Bombes,"Sur le chemin vers le château, faites exploser le rocher bloquant un passage sur la droite pour atteindre la fontaine et obtenir le sort Feu de Din."
+oot-fairy-03,oot,fee,3,Magie x2 (Double Magie),Colosse du Désert (nord-est),Les deux,Bombes,Faites exploser le mur fissuré dans le quadrant nord-est du Colosse pour doubler la capacité de la jauge de magie.
+oot-fairy-04,oot,fee,4,Vent de Farore,Fontaine Zora (presqu'île sud-est),Les deux,Bombes,Faites exploser le rocher clair sur la petite presqu'île pour révéler une grotte menant à la fontaine et obtenir le sort de téléportation.
+oot-fairy-05,oot,fee,5,Amour de Nayru,Colosse du Désert (ouest),Les deux,Bombes,Entre deux palmiers contre la paroi ouest du Colosse se cache un mur fissuré (repérable à la Lentille de Vérité) menant au sort Amour de Nayru.
+oot-fairy-06,oot,fee,6,Défense x2 (Double Défense),Devant le Château de Ganon,Les deux,Gantelets Dorés,"Une fois les Gantelets Dorés obtenus dans le Château de Ganon, soulevez l'immense pilier près du mur pour révéler la dernière fontaine, qui double la résistance aux dégâts."

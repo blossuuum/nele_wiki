@@ -1,0 +1,46 @@
+[
+  {
+    "id": "oot-bottle-01",
+    "game": "oot",
+    "category": "bouteille",
+    "number": 1,
+    "name": "Lait de Lon Lon",
+    "location": "Ranch Lon Lon",
+    "era": "Les deux",
+    "requirement": "Rubis (10)",
+    "description": "Après avoir réveillé Talon devant le Château d'Hyrule, retrouvez-le au ranch et gagnez son jeu des Super Cocoricos (repérer 3 cocoricos parmi le troupeau en 30 secondes). Bouteille obligatoire pour l'histoire."
+  },
+  {
+    "id": "oot-bottle-02",
+    "game": "oot",
+    "category": "bouteille",
+    "number": 2,
+    "name": "Cocoricos égarés d'Anju",
+    "location": "Village Cocorico",
+    "era": "Les deux",
+    "requirement": "Aucune",
+    "description": "Retrouvez les 7 cocoricos égarés d'Anju dans tout le village et ramenez-les dans l'enclos pour recevoir la bouteille."
+  },
+  {
+    "id": "oot-bottle-03",
+    "game": "oot",
+    "category": "bouteille",
+    "number": 3,
+    "name": "Lettre de Ruto",
+    "location": "Lac Hylia / Domaine Zora",
+    "era": "Les deux",
+    "requirement": "Écaille d'Argent",
+    "description": "Gagnez le jeu de plongée du Domaine Zora pour obtenir l'Écaille d'Argent, plongez jusqu'au tunnel menant au Lac Hylia, récupérez la bouteille au fond, puis donnez la lettre au Roi Zora."
+  },
+  {
+    "id": "oot-bottle-04",
+    "game": "oot",
+    "category": "bouteille",
+    "number": 4,
+    "name": "Chasseur de Fantômes",
+    "location": "Marché (adulte)",
+    "era": "Les deux",
+    "requirement": "10 Grands Poe",
+    "description": "Chassez les 10 Grands Poe dispersés dans la Plaine d'Hyrule à cheval avec l'Arc, capturez leurs esprits, puis livrez-les tous au Marchand de Poe."
+  }
+]

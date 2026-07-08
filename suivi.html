@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nele Wiki — Mon suivi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<script>
+(function(){
+  try{
+    var saved = localStorage.getItem('hyrule-trove-theme');
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }catch(e){}
+})();
+</script>
+</head>
+<body data-page="suivi">
+
+<div id="header-placeholder"></div>
+<script src="theme.js"></script>
+<script src="include-header.js"></script>
+
+<main id="top">
+  <section class="hero">
+    <span class="eyebrow">Suivi personnel</span>
+    <h1>Ma <span class="hero-highlight">liste</span> de collectibles</h1>
+    <p class="hero-sub">Connecte-toi avec Discord pour cocher les objets déjà obtenus. Ta progression est sauvegardée et te suit d'un appareil à l'autre.</p>
+  </section>
+
+  <section class="auth-section">
+    <div class="auth-card" id="loginCard">
+      <p>Connecte-toi pour commencer à suivre ta progression.</p>
+      <button class="btn-pill btn-discord" id="loginBtn">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.3 5.3A17.6 17.6 0 0 0 15.9 4c-.2.4-.5.9-.6 1.3a16.6 16.6 0 0 0-4.6 0A9 9 0 0 0 10 4a17.6 17.6 0 0 0-4.4 1.3C2.9 9 2.2 12.6 2.5 16.1a17.7 17.7 0 0 0 5.4 2.7c.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.7-.9l.4-.3c3.3 1.5 6.9 1.5 10.2 0l.4.3c-.5.4-1.1.7-1.7.9.3.7.7 1.3 1.1 1.9a17.7 17.7 0 0 0 5.4-2.7c.4-4-.6-7.6-2.8-10.8zM9.7 13.9c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2zm4.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2z"/></svg>
+        Se connecter avec Discord
+      </button>
+    </div>
+
+    <div class="auth-card user-card" id="userCard" hidden>
+      <img class="user-avatar" id="userAvatar" src="" alt="">
+      <span class="user-name" id="userName"></span>
+      <button class="btn-pill btn-ghost" id="logoutBtn">Se déconnecter</button>
+    </div>
+  </section>
+
+  <section class="checklist-section" id="checklistSection" hidden>
+
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-bar-fill" id="progressBarFill"></div></div>
+      <span class="progress-text" id="progressText">0 / 0 obtenus</span>
+      <button class="btn-pill btn-ghost progress-reset" id="resetProgressBtn">Réinitialiser</button>
+    </div>
+
+    <div class="search-row">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
+      </div>
+    </div>
+
+    <div class="game-toggle-row">
+      <div class="game-toggle">
+        <button class="game-btn active" data-game="all" aria-selected="true">Les deux jeux</button>
+        <button class="game-btn" data-game="oot" aria-selected="false">Ocarina of Time</button>
+        <button class="game-btn" data-game="ww" aria-selected="false">The Wind Waker</button>
+      </div>
+    </div>
+
+    <div class="filters-row">
+      <button class="chip chip-all active" data-cat="all">Tout</button>
+      <button class="chip chip-coeur" data-cat="coeur">
+        <img src="images/coeur.png" class="chip-icon" alt="">
+        Quarts de cœur
+      </button>
+      <button class="chip chip-bouteille" data-cat="bouteille">
+        <img src="images/bouteille.png" class="chip-icon" alt="">
+        Bouteilles
+      </button>
+      <button class="chip chip-fee" data-cat="fee">
+        <img src="images/fee.png" class="chip-icon" alt="">
+        Grandes Fées
+      </button>
+    </div>
+
+    <div class="check-list" id="checklistWrap"></div>
+  </section>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="include-footer.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="database/data.js"></script>
+<script src="suivi.js"></script>
+
+</body>
+</html>
