@@ -402,7 +402,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 1,
     "name": "Quart de cœur n°1",
-    "location": "Forteresse Maudite",
+    "location": "Forteresse Maudite | A1",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Dans la cellule voisine de la vôtre, déplacez les tonneaux pour révéler un interrupteur qui ouvre la grille d'une cellule contenant un coffre."
@@ -413,7 +413,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 2,
     "name": "Quart de cœur n°2",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Gagnez à cache-cache contre les Abeilles Tueuses ; Ivan vous récompense."
@@ -424,10 +424,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 3,
     "name": "Quart de cœur n°3",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "10 rubis",
-    "description": "Réussissez le mini-jeu « Navires en perdition » de Salvatore en moins de 24 tirs de canon."
+    "description": "Réussissez la Bataille Navale en moins de 24 tirs de canon."
   },
   {
     "id": "ww-heart-04",
@@ -435,7 +435,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 4,
     "name": "Quart de cœur n°4",
-    "location": "Île de la Griffe",
+    "location": "Île Pas de Chat | E2",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Rampez dans le dôme au centre de l'île, vainquez les Chuchus Rouges dans la grotte, puis ouvrez le coffre au bout du chemin."
@@ -449,7 +449,7 @@ const ZELDA_DATA = [
     "location": "Toute boîte aux lettres",
     "era": "N/A",
     "requirement": "Aucune",
-    "description": "Triez 25 lettres pour Baito au bureau de poste de l'Île de Vaisserang, postez sa lettre, puis récupérez la réponse de sa mère qui contient le quart de cœur."
+    "description": "Triez 25 lettres au bureau de poste de l'Île du Dragon, postez sa lettre, puis récupérez la réponse de sa mère qui contient le quart de cœur."
   },
   {
     "id": "ww-heart-06",
@@ -460,7 +460,7 @@ const ZELDA_DATA = [
     "location": "Toute boîte aux lettres",
     "era": "N/A",
     "requirement": "Perle de Farore",
-    "description": "Après avoir terminé le Bois Interdit, une lettre du Chef Rito arrive dans n'importe quelle boîte aux lettres."
+    "description": "Après avoir terminé le Bois Interdit, une lettre du Chef Piaf arrive dans n'importe quelle boîte aux lettres."
   },
   {
     "id": "ww-heart-07",
@@ -468,10 +468,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 7,
     "name": "Quart de cœur n°7",
-    "location": "Îlots des Cinq Étoiles",
+    "location": "Archipel de Cassiopée | G7",
     "era": "N/A",
-    "requirement": "Charte au trésor n°33",
-    "description": "Utilisez la charte pour localiser le trésor englouti et remontez-le."
+    "requirement": "Carte au trésor n°33",
+    "description": "Utilisez la Carte pour localiser le trésor englouti et remontez-le."
   },
   {
     "id": "ww-heart-08",
@@ -479,7 +479,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 8,
     "name": "Quart de cœur n°8",
-    "location": "Îlots des Cinq Étoiles",
+    "location": "Archipel de Cassiopée | G7",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Entrez dans le sous-marin au sud de l'îlot, vainquez les ennemis à l'intérieur et ouvrez le coffre."
@@ -490,10 +490,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 9,
     "name": "Quart de cœur n°9",
-    "location": "Îles Anguleuses",
+    "location": "Ilots Kif Kif | E7",
     "era": "N/A",
-    "requirement": "Charte au trésor n°15",
-    "description": "Utilisez la charte pour localiser le coffre englouti contenant le quart de cœur."
+    "requirement": "Carte au trésor n°15",
+    "description": "Utilisez la Carte pour localiser le coffre englouti contenant le quart de cœur."
   },
   {
     "id": "ww-heart-10",
@@ -501,7 +501,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 10,
     "name": "Quart de cœur n°10",
-    "location": "Îles Anguleuses",
+    "location": "Ilots Kif Kif | E7",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Sur la plus grande île, poussez et tirez les blocs pour grimper jusqu'au sommet et ouvrir le coffre."
@@ -512,7 +512,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 11,
     "name": "Quart de cœur n°11",
-    "location": "Île de la Pierre Tombale",
+    "location": "Île de la Terre | C5",
     "era": "N/A",
     "requirement": "Poire Hyoi",
     "description": "Prenez le contrôle d'une mouette avec une Poire Hyoi et volez jusqu'au sommet de l'île pour attraper le quart de cœur."
@@ -523,10 +523,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 12,
     "name": "Quart de cœur n°12",
-    "location": "Île du Contrefort en Diamant",
+    "location": "Ile du Losange | A6",
     "era": "N/A",
-    "requirement": "Charte au trésor n°23",
-    "description": "Repérez la zone de lumière indiquée par la charte, puis remontez et ouvrez le coffre."
+    "requirement": "Carte au trésor n°23",
+    "description": "Repérez la zone de lumière indiquée par la Carte, puis remontez et ouvrez le coffre."
   },
   {
     "id": "ww-heart-13",
@@ -534,7 +534,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 13,
     "name": "Quart de cœur n°13",
-    "location": "Îlot du Rocher-Aiguille",
+    "location": "Serrure de Pierre | A5",
     "era": "N/A",
     "requirement": "Poire Hyoi",
     "description": "Contrôlez une mouette jusqu'au sommet pour activer un interrupteur, ce qui éteint les flammes protégeant un coffre en contrebas."
@@ -545,7 +545,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 14,
     "name": "Quart de cœur n°14",
-    "location": "Île du Grand Poisson",
+    "location": "L'île du Poisson | B4",
     "era": "N/A",
     "requirement": "Feuille Deku",
     "description": "Grimpez au sommet de la petite île, réglez le vent puis planez au nord-ouest jusqu'à une corniche avec un coffre."
@@ -556,7 +556,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 15,
     "name": "Quart de cœur n°15",
-    "location": "Récif aux Six Yeux",
+    "location": "Île de la Face Six | D4",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Montez à bord du sous-marin au sud-ouest, vainquez les trois Moblins à l'intérieur, puis grimpez l'échelle jusqu'au coffre."
@@ -567,10 +567,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 16,
     "name": "Quart de cœur n°16",
-    "location": "Île Accalmie",
+    "location": "Île de l'Aurore | B7",
     "era": "N/A",
     "requirement": "Aucune",
-    "description": "Relevez le défi d'Orca : le toucher 500 fois avec votre épée sans être touché trois fois."
+    "description": "Relevez le défi d'Orco : le toucher 500 fois avec votre épée sans être touché trois fois."
   },
   {
     "id": "ww-heart-17",
@@ -578,7 +578,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 17,
     "name": "Quart de cœur n°17",
-    "location": "Île du Veilleur de Pierre",
+    "location": "Île de la Tête de Pierre | C5",
     "era": "N/A",
     "requirement": "Canon",
     "description": "Détruisez les canons sous la plateforme de guet ennemie, grimpez et ouvrez le coffre qui apparaît."
@@ -589,7 +589,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 18,
     "name": "Quart de cœur n°18",
-    "location": "Île de Tingle",
+    "location": "Île de Tingle | C3",
     "era": "N/A",
     "requirement": "Canon ou Boomerang",
     "description": "Vainquez le Grand Octogonien au nord de l'île, puis utilisez le Grappin pour remonter le trésor qu'il laisse tomber."
@@ -600,7 +600,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 19,
     "name": "Quart de cœur n°19",
-    "location": "Île du Spectacle",
+    "location": "Île des Binocles | C2",
     "era": "N/A",
     "requirement": "50 rubis",
     "description": "Jouez au mini-jeu de tir au canon installé par Salvatore et terminez-le avec succès."
@@ -611,7 +611,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 20,
     "name": "Quart de cœur n°20",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Beaucoup de rubis",
     "description": "Participez aux enchères nocturnes à l'Hôtel des Ventes jusqu'à remporter celle du quart de cœur."
@@ -622,7 +622,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 21,
     "name": "Quart de cœur n°21",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Boîte à Pictos Deluxe",
     "description": "Prenez une photo en couleur de Linda, donnez-la à Anton, puis retrouvez Linda au café pour recevoir sa récompense."
@@ -633,10 +633,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 22,
     "name": "Quart de cœur n°22",
-    "location": "Île du Croissant de Lune",
+    "location": "Île du Croissant | E1",
     "era": "N/A",
-    "requirement": "Charte au trésor n°11",
-    "description": "Utilisez la charte pour localiser puis remonter le trésor englouti."
+    "requirement": "Carte au trésor n°11",
+    "description": "Utilisez la Carte pour localiser puis remonter le trésor englouti."
   },
   {
     "id": "ww-heart-23",
@@ -658,7 +658,7 @@ const ZELDA_DATA = [
     "location": "Toute boîte aux lettres",
     "era": "N/A",
     "requirement": "20 Plumes Dorées",
-    "description": "Donnez 20 Plumes Dorées au garde devant la chambre du Chef Rito, puis attendez la lettre de sa petite amie."
+    "description": "Donnez 20 Plumes Dorées au garde devant la chambre du Chef Piaf, puis attendez la lettre de sa petite amie."
   },
   {
     "id": "ww-heart-25",
@@ -666,7 +666,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 25,
     "name": "Quart de cœur n°25",
-    "location": "Plateforme de Contrôle Aérien",
+    "location": "Tour de l'Envol | G2",
     "era": "N/A",
     "requirement": "Feuille Deku",
     "description": "Réglez le vent et utilisez les cyclones pour réussir le Concours de l'Homme-Oiseau ; une jauge de magie améliorée aide beaucoup."
@@ -677,7 +677,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 26,
     "name": "Quart de cœur n°26",
-    "location": "Île de la Bombe",
+    "location": "Île de la Bombe | F5",
     "era": "N/A",
     "requirement": "Bombes",
     "description": "Faites exploser le rocher central pour révéler une grotte, neutralisez les Magmenta qui bloquent le passage, puis ouvrez le coffre."
@@ -688,10 +688,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 27,
     "name": "Quart de cœur n°27",
-    "location": "Havre de la Forêt",
+    "location": "Ile aux Forêts | F6",
     "era": "N/A",
-    "requirement": "Charte au trésor n°31",
-    "description": "Utilisez la charte pour localiser et remonter le trésor contenant le quart de cœur."
+    "requirement": "Carte au trésor n°31",
+    "description": "Utilisez la Carte pour localiser et remonter le trésor contenant le quart de cœur."
   },
   {
     "id": "ww-heart-28",
@@ -699,10 +699,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 28,
     "name": "Quart de cœur n°28",
-    "location": "Récif aux Trois Yeux",
+    "location": "Ile de la Face Trois | A4",
     "era": "N/A",
-    "requirement": "Charte au trésor n°38",
-    "description": "Repérez le point lumineux indiqué par la charte et remontez le trésor."
+    "requirement": "Carte au trésor n°38",
+    "description": "Repérez le point lumineux indiqué par la Carte et remontez le trésor."
   },
   {
     "id": "ww-heart-29",
@@ -710,7 +710,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 29,
     "name": "Quart de cœur n°29",
-    "location": "Île de l'Étoile",
+    "location": "Île Étoilée | B1",
     "era": "N/A",
     "requirement": "Bombes",
     "description": "Faites exploser le rocher menant à une grotte secrète, vainquez les ennemis à l'intérieur, puis ouvrez le coffre."
@@ -721,7 +721,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 30,
     "name": "Quart de cœur n°30",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Achetez et plantez 14 pots de fleurs chez Zunari, répartis sur l'île, puis parlez à l'homme assis sur le banc."
@@ -732,10 +732,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 31,
     "name": "Quart de cœur n°31",
-    "location": "Île du Rocher-Épine",
+    "location": "Île de la Rocaille | B3",
     "era": "N/A",
     "requirement": "950 rubis",
-    "description": "Achetez directement ce quart de cœur au bateau-boutique du Barterie masqué qui navigue autour de l'île."
+    "description": "Achetez directement ce quart de cœur au bateau-boutique du Terry masqué qui navigue autour de l'île."
   },
   {
     "id": "ww-heart-32",
@@ -743,7 +743,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 32,
     "name": "Quart de cœur n°32",
-    "location": "Île du Rocher-Épine",
+    "location": "Île de la Rocaille | B3",
     "era": "N/A",
     "requirement": "Canon",
     "description": "Coulez les deux navires ennemis qui patrouillent autour de l'île et récupérez leur butin."
@@ -754,10 +754,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 33,
     "name": "Quart de cœur n°33",
-    "location": "Île de la Fée du Sud",
+    "location": "Ilot Méridional des Fées | D6",
     "era": "N/A",
-    "requirement": "Charte au trésor n°4",
-    "description": "Utilisez la charte pour localiser et remonter le trésor englouti."
+    "requirement": "Carte au trésor n°4",
+    "description": "Utilisez la Carte pour localiser et remonter le trésor englouti."
   },
   {
     "id": "ww-heart-34",
@@ -765,10 +765,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 34,
     "name": "Quart de cœur n°34",
-    "location": "Île de la Griffe",
+    "location": "Île Pas de Chat | E2",
     "era": "N/A",
-    "requirement": "Charte au trésor n°30",
-    "description": "Utilisez la charte pour localiser et remonter un second trésor sur cette île."
+    "requirement": "Carte au trésor n°30",
+    "description": "Utilisez la Carte pour localiser et remonter un second trésor sur cette île."
   },
   {
     "id": "ww-heart-35",
@@ -776,7 +776,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 35,
     "name": "Quart de cœur n°35",
-    "location": "Île du Grand Poisson",
+    "location": "Île du Poisson | B4",
     "era": "N/A",
     "requirement": "Statue du Gourou",
     "description": "Récompense finale de la Séquence des Marchands Ambulants, après avoir échangé la Statue du Gourou."
@@ -787,10 +787,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 36,
     "name": "Quart de cœur n°36",
-    "location": "N'importe où",
+    "location": "Mission des Korogus",
     "era": "N/A",
     "requirement": "Eau de Forêt",
-    "description": "Arrosez le tout dernier Arbre Flétri restant avec de l'Eau de Forêt pour qu'il libère le quart de cœur."
+    "description": "Arrosez tous les arbres plantés par les Korogus à l’extérieur de la forêt en moins de 20 minutes, et ce avec l'eau de la forêt. Vous obtiendrez un quart de coeur."
   },
   {
     "id": "ww-heart-37",
@@ -798,7 +798,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 37,
     "name": "Quart de cœur n°37",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Flèches de Feu",
     "description": "Activez le moulin (interrupteur en haut de l'échelle), grimpez dessus lorsqu'il tourne, puis tirez une Flèche de Feu dans le phare pour le rallumer et parler à Kreeb."
@@ -809,7 +809,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 38,
     "name": "Quart de cœur n°38",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Flèches de Feu, Feuille Deku",
     "description": "Une fois le phare rallumé, planez avec la Feuille Deku jusqu'au petit îlot où un coffre nocturne est apparu."
@@ -820,7 +820,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 39,
     "name": "Quart de cœur n°39",
-    "location": "Île Mercantîle",
+    "location": "Île Mercantîle | D2",
     "era": "N/A",
     "requirement": "Aucune",
     "description": "Postez la lettre de Maggie à Moe, récupérez sa réponse auprès d'Ilari au café, puis rapportez-la à Maggie."
@@ -831,10 +831,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 40,
     "name": "Quart de cœur n°40",
-    "location": "Île du Rocher-Épine",
+    "location": "Ile de la Rocaille | B3",
     "era": "N/A",
-    "requirement": "Charte au trésor n°2",
-    "description": "Utilisez la charte pour localiser et remonter le trésor englouti."
+    "requirement": "Carte au trésor n°2",
+    "description": "Utilisez la Carte pour localiser et remonter le trésor englouti."
   },
   {
     "id": "ww-heart-41",
@@ -842,7 +842,7 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 41,
     "name": "Quart de cœur n°41",
-    "location": "Île Accalmie",
+    "location": "Île de l'Aurore | B7",
     "era": "N/A",
     "requirement": "Appât Universel",
     "description": "Portez le grand cochon noir de l'autre côté du pont, puis jetez de l'Appât Universel sur la terre meuble pour qu'il déterre le quart de cœur."
@@ -853,10 +853,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 42,
     "name": "Quart de cœur n°42",
-    "location": "Île de la Bombe",
+    "location": "Île de la Bombe | F5",
     "era": "N/A",
-    "requirement": "Charte au trésor n°20",
-    "description": "Utilisez la charte pour localiser et remonter le trésor englouti."
+    "requirement": "Carte au trésor n°20",
+    "description": "Utilisez la Carte pour localiser et remonter le trésor englouti."
   },
   {
     "id": "ww-heart-43",
@@ -864,21 +864,10 @@ const ZELDA_DATA = [
     "category": "coeur",
     "number": 43,
     "name": "Quart de cœur n°43",
-    "location": "Île de la Fée Épineuse",
+    "location": "Ilot Epineux des Fées | G4",
     "era": "N/A",
-    "requirement": "Charte au trésor n°5",
-    "description": "Utilisez la charte pour localiser et remonter le trésor englouti."
-  },
-  {
-    "id": "ww-heart-44",
-    "game": "ww",
-    "category": "coeur",
-    "number": 44,
-    "name": "Quart de cœur n°44",
-    "location": "Récif aux Deux Yeux",
-    "era": "N/A",
-    "requirement": "Charte au trésor n°46",
-    "description": "Utilisez la charte pour localiser le dernier trésor englouti du jeu (sur GameCube : récompense des 50 étages du Labyrinthe Sauvage à la place)."
+    "requirement": "Carte au trésor n°5",
+    "description": "Utilisez la Carte pour localiser et remonter le trésor englouti."
   },
   {
     "id": "oot-bottle-01",
@@ -931,7 +920,7 @@ const ZELDA_DATA = [
     "number": 1,
     "name": "Cadeau de Médolie",
     "location": "Île du Dragon",
-    "era": "Les deux",
+    "era": "N/A",
     "requirement": "Aucune",
     "description": "Aidez Médolie à atteindre l'entrée de la Caverne du Dragon (portez-la et lancez-la vers la corniche avec le vent favorable) ; elle vous offre la bouteille en remerciement. Bouteille obligatoire pour l'histoire."
   },
@@ -942,7 +931,7 @@ const ZELDA_DATA = [
     "number": 2,
     "name": "Sous-marin de l'Île de la Bombe",
     "location": "Île de la Bombe",
-    "era": "Les deux",
+    "era": "N/A",
     "requirement": "Aucune",
     "description": "Repérez le sous-marin au sud de l'île grâce au vieux Ho Ho, entrez et vainquez les Bokoblins pour récupérer la bouteille dans le coffre."
   },
@@ -951,11 +940,11 @@ const ZELDA_DATA = [
     "game": "ww",
     "category": "bouteille",
     "number": 3,
-    "name": "Achat chez Barterie masqué",
-    "location": "Île du Rocher-Épine",
-    "era": "Les deux",
+    "name": "Achat chez Terry masqué",
+    "location": "Île de la Rocaille | B3",
+    "era": "N/A",
     "requirement": "500 rubis",
-    "description": "Le bateau-boutique itinérant du Barterie masqué vend une bouteille vide pour 500 rubis."
+    "description": "Le bateau-boutique itinérant du Terry masqué vend une bouteille vide pour 500 rubis."
   },
   {
     "id": "ww-bottle-04",
@@ -963,8 +952,8 @@ const ZELDA_DATA = [
     "category": "bouteille",
     "number": 4,
     "name": "Mila la nécessiteuse",
-    "location": "Île Mercantîle (nuit)",
-    "era": "Les deux",
+    "location": "Île Mercantîle | D2 (nuit)",
+    "era": "N/A",
     "requirement": "Après la Forteresse Maudite",
     "description": "Trouvez Mila près de chez Zunari la nuit, suivez-la discrètement sans vous faire repérer jusqu'à la cachette, puis répondez correctement à ses questions pour recevoir la bouteille."
   },
@@ -1040,8 +1029,8 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 1,
     "name": "Porte-monnaie (1000 rubis)",
-    "location": "Forêt aux Fées, Île Accalmie",
-    "era": "Les deux",
+    "location": "Forêt des Fées, Île de l'Aurore | B7",
+    "era": "N/A",
     "requirement": "Bombes, Feuille Deku",
     "description": "Depuis le sommet de l'île, planez au-dessus du pont brisé avec la Feuille Deku, puis faites exploser le rocher qui bloque la fontaine."
   },
@@ -1051,8 +1040,8 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 2,
     "name": "Plus Grand Porte-monnaie (5000 rubis)",
-    "location": "Île de la Fée du Nord",
-    "era": "Les deux",
+    "location": "Ilot Septentrional des Fées | C1",
+    "era": "N/A",
     "requirement": "Bombes",
     "description": "Faites exploser le rocher à l'entrée de la fontaine pour obtenir la capacité maximale de rubis."
   },
@@ -1062,8 +1051,8 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 3,
     "name": "Plus Grand Sac à Bombes (60)",
-    "location": "Île de la Fée de l'Est",
-    "era": "Les deux",
+    "location": "Ilot Oriental des Fées | E3",
+    "era": "N/A",
     "requirement": "Bombes",
     "description": "Faites exploser le rocher qui bloque l'entrée du coquillage géant pour doubler votre capacité en bombes."
   },
@@ -1073,8 +1062,8 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 4,
     "name": "Sac à Bombes Maximal (99)",
-    "location": "Île de la Fée du Sud",
-    "era": "Les deux",
+    "location": "Ilot Méridional des Fées | D6",
+    "era": "N/A",
     "requirement": "Bombes",
     "description": "Faites exploser les planches qui bloquent l'entrée pour porter votre capacité de bombes à son maximum."
   },
@@ -1084,8 +1073,8 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 5,
     "name": "Carquois Agrandi (60 flèches)",
-    "location": "Île de la Fée Épineuse",
-    "era": "Les deux",
+    "location": "Ilot Epineux des Fées | G4",
+    "era": "N/A",
     "requirement": "Marteau Skull",
     "description": "Utilisez le Marteau Skull pour enfoncer les piquets qui bloquent l'entrée du coquillage et augmenter votre réserve de flèches."
   },
@@ -1095,8 +1084,8 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 6,
     "name": "Carquois Maximal (99 flèches)",
-    "location": "Île de la Fée de l'Ouest",
-    "era": "Les deux",
+    "location": "Ilot Occidental des Fées | A3",
+    "era": "N/A",
     "requirement": "Marteau Skull",
     "description": "Enfoncez le piquet qui bloque l'entrée pour éteindre les flammes, puis récupérez la capacité maximale de flèches."
   },
@@ -1106,20 +1095,9 @@ const ZELDA_DATA = [
     "category": "fee",
     "number": 7,
     "name": "Jauge de Magie x2",
-    "location": "Récif aux Deux Yeux",
-    "era": "Les deux",
+    "location": "Ile de la Face de Deux | D7",
+    "era": "N/A",
     "requirement": "Aucune",
-    "description": "Approchez le rassemblement de mouettes pour faire apparaître un Grand Octogonien ; sa défaite fait apparaître la fée qui double la jauge de magie."
-  },
-  {
-    "id": "ww-fairy-08",
-    "game": "ww",
-    "category": "fee",
-    "number": 8,
-    "name": "Tourbillon Ouragan (bonus, hors Grande Fée)",
-    "location": "Île Accalmie",
-    "era": "Les deux",
-    "requirement": "10 Blasons de Chevalier",
-    "description": "Donnez 10 Blasons de Chevalier (butin des Chevaliers Noirs) à Orca pour apprendre cette technique d'attaque tournoyante prolongée."
+    "description": "Approchez le rassemblement de mouettes pour faire apparaître Kalamar ; sa défaite fait apparaître la fée qui double la jauge de magie."
   }
 ];
