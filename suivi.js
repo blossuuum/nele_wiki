@@ -3,7 +3,8 @@
     console.warn('Supabase n\u2019est pas configuré : remplis supabase-config.js.');
   }
 
-  var supabase = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+  var supabase = window.NELE_SUPABASE || window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+  window.NELE_SUPABASE = supabase;
 
   var loginCard = document.getElementById('loginCard');
   var userCard = document.getElementById('userCard');
