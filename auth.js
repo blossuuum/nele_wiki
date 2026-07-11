@@ -18,6 +18,7 @@
     var userLink = document.getElementById('headerUserLink');
     var avatar = document.getElementById('headerAvatar');
     var username = document.getElementById('headerUsername');
+    var logoutBtn = document.getElementById('headerLogoutBtn');
 
     if (!loginBtn || !userLink) return false; // header pas encore injecté
 
@@ -30,6 +31,13 @@
         });
       });
       loginBtn.dataset.wired = '1';
+    }
+
+    if (logoutBtn && !logoutBtn.dataset.wired) {
+      logoutBtn.addEventListener('click', function () {
+        sb.auth.signOut();
+      });
+      logoutBtn.dataset.wired = '1';
     }
 
     if (!haveSession) {
