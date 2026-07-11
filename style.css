@@ -206,6 +206,26 @@ html[data-theme="dark"] .icon-sun{ display:none; }
 .btn-primary{ background: var(--accent); color:#fff; box-shadow: var(--shadow-sm); transition: transform .15s ease, background .15s ease;}
 .btn-primary:hover{ background: var(--accent-deep); transform: translateY(-1px);}
 
+.header-auth{ display:flex; align-items:center; }
+.btn-discord-compact{ padding:7px 12px; font-size:.8rem; gap:6px; }
+
+.header-user{
+  display:flex; align-items:center; gap:8px;
+  text-decoration:none; color:inherit;
+  padding:4px 10px 4px 4px; border-radius: var(--radius-pill);
+  background: var(--surface-soft);
+}
+.header-user[hidden]{
+  display:none;
+}
+.header-avatar{
+  width:26px; height:26px; border-radius:50%; object-fit:cover;
+}
+.header-username{
+  font-weight:700; font-size:.82rem; max-width:120px;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+
 /* ---------- Mobile menu toggle + panel ---------- */
 .menu-toggle{
   display:none;
