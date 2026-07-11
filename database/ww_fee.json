@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ww-fairy-01",
+    "game": "ww",
+    "category": "fee",
+    "number": 1,
+    "name": "Porte-monnaie (1000 rubis)",
+    "location": "Forêt aux Fées, Île Accalmie",
+    "era": "Les deux",
+    "requirement": "Bombes, Feuille Deku",
+    "description": "Depuis le sommet de l'île, planez au-dessus du pont brisé avec la Feuille Deku, puis faites exploser le rocher qui bloque la fontaine."
+  },
+  {
+    "id": "ww-fairy-02",
+    "game": "ww",
+    "category": "fee",
+    "number": 2,
+    "name": "Plus Grand Porte-monnaie (5000 rubis)",
+    "location": "Île de la Fée du Nord",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Faites exploser le rocher à l'entrée de la fontaine pour obtenir la capacité maximale de rubis."
+  },
+  {
+    "id": "ww-fairy-03",
+    "game": "ww",
+    "category": "fee",
+    "number": 3,
+    "name": "Plus Grand Sac à Bombes (60)",
+    "location": "Île de la Fée de l'Est",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Faites exploser le rocher qui bloque l'entrée du coquillage géant pour doubler votre capacité en bombes."
+  },
+  {
+    "id": "ww-fairy-04",
+    "game": "ww",
+    "category": "fee",
+    "number": 4,
+    "name": "Sac à Bombes Maximal (99)",
+    "location": "Île de la Fée du Sud",
+    "era": "Les deux",
+    "requirement": "Bombes",
+    "description": "Faites exploser les planches qui bloquent l'entrée pour porter votre capacité de bombes à son maximum."
+  },
+  {
+    "id": "ww-fairy-05",
+    "game": "ww",
+    "category": "fee",
+    "number": 5,
+    "name": "Carquois Agrandi (60 flèches)",
+    "location": "Île de la Fée Épineuse",
+    "era": "Les deux",
+    "requirement": "Marteau Skull",
+    "description": "Utilisez le Marteau Skull pour enfoncer les piquets qui bloquent l'entrée du coquillage et augmenter votre réserve de flèches."
+  },
+  {
+    "id": "ww-fairy-06",
+    "game": "ww",
+    "category": "fee",
+    "number": 6,
+    "name": "Carquois Maximal (99 flèches)",
+    "location": "Île de la Fée de l'Ouest",
+    "era": "Les deux",
+    "requirement": "Marteau Skull",
+    "description": "Enfoncez le piquet qui bloque l'entrée pour éteindre les flammes, puis récupérez la capacité maximale de flèches."
+  },
+  {
+    "id": "ww-fairy-07",
+    "game": "ww",
+    "category": "fee",
+    "number": 7,
+    "name": "Jauge de Magie x2",
+    "location": "Récif aux Deux Yeux",
+    "era": "Les deux",
+    "requirement": "Aucune",
+    "description": "Approchez le rassemblement de mouettes pour faire apparaître un Grand Octogonien ; sa défaite fait apparaître la fée qui double la jauge de magie."
+  },
+  {
+    "id": "ww-fairy-08",
+    "game": "ww",
+    "category": "fee",
+    "number": 8,
+    "name": "Tourbillon Ouragan (bonus, hors Grande Fée)",
+    "location": "Île Accalmie",
+    "era": "Les deux",
+    "requirement": "10 Blasons de Chevalier",
+    "description": "Donnez 10 Blasons de Chevalier (butin des Chevaliers Noirs) à Orca pour apprendre cette technique d'attaque tournoyante prolongée."
+  }
+]

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nele Wiki — Accueil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/images/icon.png">
+<link rel="stylesheet" href="style.css">
+<script>
+  window.SITE_ROOT = '';
+  (function(){
+    try{
+      var saved = localStorage.getItem('hyrule-trove-theme');
+      var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    }catch(e){}
+  })();
+</script>
+</head>
+<body data-page="index">
+
+<div id="header-placeholder"></div>
+<script src="theme.js"></script>
+<script src="include-header.js"></script>
+
+<main id="top">
+  <section class="hero-band">
+    <div class="hero-home">
+      <span class="eyebrow">Base de données non officielle</span>
+      <h1>Guide Non-Officiel des <span class="hero-highlight">Zelda 3D</span></h1>
+      <p class="hero-sub">Quarts de cœurs, bouteilles et Grandes fées… Maintenant plus besoin de fouiner ! Rendez-vous sur le wiki de Nele.</p>
+    </div>
+  </section>
+
+  <div class="crest-divider">
+    <img class="crest-emblem crest-emblem-light" src="images/divider-emblem.png" alt="">
+    <img class="crest-emblem crest-emblem-dark" src="images/divider-emblem-dark.png" alt="">
+  </div>
+
+  <section class="how-it-works-band">
+    <div class="how-it-works">
+      <div class="how-it-works-layout">
+        <div class="steps-column">
+          <h2 class="section-title-home">Comment ça marche ?</h2>
+          <div class="steps-list">
+            <div class="step-item">
+              <span class="step-num-circle">1</span>
+              <p>Choisit le jeux sur lequel tu bloques !</p>
+            </div>
+            <div class="step-item">
+              <span class="step-num-circle">2</span>
+              <p>Besoins des Quarts de cœurs ? Des bouteilles ? Ou bien tu recherches une grande fée ? À toi de faire ton choix !</p>
+            </div>
+            <div class="step-item">
+              <span class="step-num-circle">3</span>
+              <p>Tu es perdu à cause du nombre de check ? Dans ce cas connecte ton Discord et remplis la checklist de chaque jeux !</p>
+            </div>
+          </div>
+        </div>
+        <div class="mascot-wrap">
+          <img class="mascot-ring" src="images/nele-ring-text.png" alt="">
+          <img class="mascot-chibi" src="images/nele-chibi.png" alt="Nele">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="crest-divider">
+    <img class="crest-emblem crest-emblem-light" src="images/divider-emblem.png" alt="">
+    <img class="crest-emblem crest-emblem-dark" src="images/divider-emblem-dark.png" alt="">
+  </div>
+
+  <section class="downloads-band" id="downloads">
+    <div class="downloads-section" id="downloads">
+      <h2 class="section-title">Base de données à télécharger</h2>
+      <p>Toutes les données de ce site sont ouvertes et téléchargeables, par catégorie ou en un seul fichier, dans le format de votre choix.</p>
+      <div class="downloads-grid">
+        <div class="dl-card">
+          <h3>Tout en un</h3>
+          <p>Les 102 entrées (cœurs, bouteilles, fées), les deux jeux confondus.</p>
+          <div class="dl-links">
+            <a href="assets/database/all_collectibles.json" download>JSON</a>
+            <a href="assets/database/all_collectibles.csv" download>CSV</a>
+            <a href="assets/database/all_collectibles.xml" download>XML</a>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3>Ocarina of Time</h3>
+          <p>36 quarts de cœur · 4 bouteilles · 6 Grandes Fées.</p>
+          <div class="dl-links">
+            <a href="assets/database/oot_coeur.json" download>Cœurs (JSON)</a>
+            <a href="assets/database/oot_coeur.csv" download>Cœurs (CSV)</a>
+            <a href="assets/database/oot_bouteille.json" download>Bouteilles (JSON)</a>
+            <a href="assets/database/oot_bouteille.csv" download>Bouteilles (CSV)</a>
+            <a href="assets/database/oot_fee.json" download>Fées (JSON)</a>
+            <a href="assets/database/oot_fee.csv" download>Fées (CSV)</a>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3>The Wind Waker</h3>
+          <p>44 quarts de cœur · 4 bouteilles · 8 améliorations de Grandes Fées.</p>
+          <div class="dl-links">
+            <a href="assets/database/ww_coeur.json" download>Cœurs (JSON)</a>
+            <a href="assets/database/ww_coeur.csv" download>Cœurs (CSV)</a>
+            <a href="assets/database/ww_bouteille.json" download>Bouteilles (JSON)</a>
+            <a href="assets/database/ww_bouteille.csv" download>Bouteilles (CSV)</a>
+            <a href="assets/database/ww_fee.json" download>Fées (JSON)</a>
+            <a href="assets/database/ww_fee.csv" download>Fées (CSV)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="include-footer.js"></script>
+
+<div id="footer-placeholder"></div>
+<script src="assets/js/include-footer.js"></script>
+
+</body>
+</html>

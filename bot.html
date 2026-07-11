@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nele Wiki — Bot Discord</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<script>
+(function(){
+  try{
+    var saved = localStorage.getItem('hyrule-trove-theme');
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }catch(e){}
+})();
+</script>
+</head>
+<body data-page="bot">
+
+<div id="header-placeholder"></div>
+<script src="theme.js"></script>
+<script src="include-header.js"></script>
+
+<main id="top">
+  <section class="hero">
+    <span class="eyebrow">Bot Discord</span>
+    <h1>Suis ta progression directement sur <span class="hero-highlight">Discord</span></h1>
+    <p class="hero-sub">Le bot Nele Wiki te permet de consulter et cocher tes checks sans quitter ton serveur !</p>
+  </section>
+
+  <section class="bot-cta-section">
+    <div class="bot-cta-card">
+      <img class="bot-cta-icon" src="images/icon-bot.png" alt="">
+      <h2>Nele Wiki Bot</h2>
+      <p>Ajoute le bot à ton serveur Discord pour commencer à l'utiliser. Il te faudra ensuite avoir lié ton compte Discord sur la page <a href="suivi.html">Mon suivi</a> pour que tes checks fonctionnent.</p>
+      <a class="btn-pill btn-discord bot-invite-btn"
+         href="https://discord.com/oauth2/authorize?client_id=1523323683198996690"
+         target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.3 5.3A17.6 17.6 0 0 0 15.9 4c-.2.4-.5.9-.6 1.3a16.6 16.6 0 0 0-4.6 0A9 9 0 0 0 10 4a17.6 17.6 0 0 0-4.4 1.3C2.9 9 2.2 12.6 2.5 16.1a17.7 17.7 0 0 0 5.4 2.7c.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.7-.9l.4-.3c3.3 1.5 6.9 1.5 10.2 0l.4.3c-.5.4-1.1.7-1.7.9.3.7.7 1.3 1.1 1.9a17.7 17.7 0 0 0 5.4-2.7c.4-4-.6-7.6-2.8-10.8zM9.7 13.9c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2zm4.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2z"/></svg>
+        Ajouter le bot à mon serveur
+      </a>
+    </div>
+  </section>
+
+    <hr class="section-divider">
+
+  <section class="bot-commands-section">
+    <h2 class="section-title">Les commandes disponibles</h2>
+    <div class="command-list">
+
+      <div class="command-row">
+        <span class="command-name">/progression</span>
+        <span class="command-desc">Voir combien de checks il reste (et lesquels), filtrable par jeu et/ou catégorie.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/check</span>
+        <span class="command-desc">Valider un check comme obtenu, avec autocomplétion pour le retrouver facilement.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/uncheck</span>
+        <span class="command-desc">Décocher un check déjà validé par erreur.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/profil</span>
+        <span class="command-desc">Voir un résumé global de ta progression sur les deux jeux.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/aleatoire</span>
+        <span class="command-desc">Se faire suggérer un check restant au hasard, pour se motiver à explorer.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/comparer</span>
+        <span class="command-desc">Comparer sa progression à celle d'un autre membre du serveur.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/classement</span>
+        <span class="command-desc">Voir le podium du serveur, classé par nombre de checks validés.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/reset</span>
+        <span class="command-desc">Remettre à zéro une sélection de checks (avec confirmation).</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/whoami</span>
+        <span class="command-desc">Vérifier que ton compte Discord est bien lié au site.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/site</span>
+        <span class="command-desc">Recevoir le lien direct vers Nele Wiki.</span>
+      </div>
+      <div class="command-row">
+        <span class="command-name">/help</span>
+        <span class="command-desc">Afficher la liste de toutes les commandes, directement sur Discord.</span>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="include-footer.js"></script>
+
+</body>
+</html>
