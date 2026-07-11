@@ -210,13 +210,16 @@ html[data-theme="dark"] .icon-sun{ display:none; }
 .btn-discord-compact{ padding:7px 12px; font-size:.8rem; gap:6px; }
 
 .header-user{
-  display:flex; align-items:center; gap:8px;
-  text-decoration:none; color:inherit;
-  padding:4px 10px 4px 4px; border-radius: var(--radius-pill);
+  display:flex; align-items:center; gap:6px;
+  padding:4px 6px 4px 4px; border-radius: var(--radius-pill);
   background: var(--surface-soft);
 }
 .header-user[hidden]{
   display:none;
+}
+.header-user-link{
+  display:flex; align-items:center; gap:8px;
+  text-decoration:none; color:inherit;
 }
 .header-avatar{
   width:26px; height:26px; border-radius:50%; object-fit:cover;
@@ -224,6 +227,15 @@ html[data-theme="dark"] .icon-sun{ display:none; }
 .header-username{
   font-weight:700; font-size:.82rem; max-width:120px;
   overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.header-logout-btn{
+  display:flex; align-items:center; justify-content:center;
+  width:24px; height:24px; border-radius:50%;
+  border:none; background: transparent; color: var(--ink-soft);
+  cursor:pointer; transition: background .15s ease, color .15s ease;
+}
+.header-logout-btn:hover{
+  background: var(--accent-pale); color: var(--accent-deep);
 }
 
 /* ---------- Mobile menu toggle + panel ---------- */
