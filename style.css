@@ -76,6 +76,10 @@ h1,h2,h3{font-family:var(--font-display); margin:0 0 .4em; font-weight:700;}
   background: var(--bg);
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 body[data-page="index"],
 body[data-page="suivi"],
 body[data-page="oot"],
