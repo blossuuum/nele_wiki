@@ -23,9 +23,10 @@
 
     if (!loginBtn.dataset.wired) {
       loginBtn.addEventListener('click', function () {
+        var cleanUrl = window.location.origin + window.location.pathname;
         sb.auth.signInWithOAuth({
           provider: 'discord',
-          options: { redirectTo: window.location.href }
+          options: { redirectTo: cleanUrl }
         });
       });
       loginBtn.dataset.wired = '1';
@@ -50,6 +51,12 @@
     haveSession = !!user;
     applyToHeader();
     document.dispatchEvent(new CustomEvent('nele-auth-changed', { detail: { user: user } }));
+
+    // Nettoie l'URL (code/token/error résiduels) pour ne pas polluer la prochaine tentative.
+    if (window.location.search || window.location.hash) {
+      var clean = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, clean);
+    }
   }
 
   sb.auth.getSession().then(function (res) {
