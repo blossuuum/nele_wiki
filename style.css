@@ -674,37 +674,45 @@ html[data-theme="dark"] .how-it-works-band{
 .btn-ghost{ background: var(--surface-soft); color: var(--ink-soft); box-shadow:none; }
 .btn-ghost:hover{ background: var(--accent-pale); color: var(--accent-deep); }
 
-.checklist-section{ max-width: 1150px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
+.checklist-section{ max-width: 1120px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
+
+.suivi-layout{
+  display:grid; grid-template-columns: 260px 1fr; gap:32px; align-items:start;
+}
+.suivi-sidebar{
+  display:flex; flex-direction:column; gap:18px;
+  position:sticky; top:24px;
+}
+.suivi-sidebar .search-box{ width:100%; max-width:none; }
 
 .progress-wrap{
-  display:flex; align-items:center; gap:12px; flex-wrap:wrap;
-  flex:1 1 320px; justify-content:flex-end;
+  display:flex; flex-direction:column; align-items:stretch; gap:10px;
+  padding-bottom:18px; border-bottom:1px solid var(--border-soft);
 }
-.progress-bar{ flex:1 1 140px; max-width:220px; min-width:120px; height:12px; border-radius: var(--radius-pill); background: var(--surface-soft); overflow:hidden; }
+.progress-bar{ width:100%; height:12px; border-radius: var(--radius-pill); background: var(--surface-soft); overflow:hidden; }
 .progress-bar-fill{ height:100%; width:0%; background: var(--accent); border-radius: var(--radius-pill); transition: width .25s ease; }
-.progress-text{ font-weight:800; color: var(--ink-soft); white-space:nowrap; font-size:.9rem; }
-.progress-reset{ font-size:.82rem; padding:8px 16px; white-space:nowrap; }
+.progress-text{ font-weight:800; color: var(--ink-soft); font-size:.9rem; }
+.progress-reset{ align-self:flex-start; font-size:.82rem; padding:8px 16px; white-space:nowrap; }
 
-.suivi-toolbar{
-  display:flex; align-items:center; justify-content:space-between;
-  gap:16px; flex-wrap:wrap;
-  padding-bottom:20px; margin-bottom:20px;
-  border-bottom:1px solid var(--border-soft);
+.suivi-sidebar .game-toggle{
+  display:flex; flex-direction:column; width:100%;
 }
-.suivi-toolbar .search-box{ width:auto; flex:1 1 320px; max-width:520px; }
-.suivi-filter-group{
-  display:flex; align-items:stretch; gap:12px; flex-wrap:wrap; margin-bottom:24px;
-}
+.suivi-sidebar .game-btn{ width:100%; text-align:left; }
+
 .filter-divider{
-  width:1px; height:26px; background: var(--border-soft); flex-shrink:0;
+  width:100%; height:1px; background: var(--border-soft);
 }
 
-.game-toggle-row{ display:flex; justify-content:center; margin-bottom:18px; }
+.suivi-sidebar .filters-row{
+  display:flex; flex-direction:column; justify-content:flex-start; gap:8px; margin-bottom:0;
+}
+.suivi-sidebar .chip{ width:100%; justify-content:flex-start; }
 
-.check-list{ display:grid; grid-template-columns: 1fr; gap:10px 20px; margin-top:20px; }
+.check-list{ display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:10px 16px; margin-top:0; }
 
-@media (min-width: 720px){
-  .check-list{ grid-template-columns: 1fr 1fr; }
+@media (max-width: 860px){
+  .suivi-layout{ grid-template-columns: 1fr; }
+  .suivi-sidebar{ position:static; }
 }
 .check-row{
   display:flex; align-items:center; gap:14px;
