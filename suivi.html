@@ -31,9 +31,9 @@
 <script src="include-header.js"></script>
 
 <main id="top">
-  <section class="hero">
+  <section class="hero-other">
     <span class="eyebrow">Suivi personnel</span>
-    <h1>Ma <span class="hero-highlight">liste</span> de collectibles</h1>
+    <h1>Ma <span class="hero-highlight">liste</span> de checks</h1>
     <p class="hero-sub">Connecte-toi avec Discord pour cocher les objets déjà obtenus. Ta progression est sauvegardée et te suit d'un appareil à l'autre.</p>
   </section>
 
@@ -60,7 +60,6 @@
       </div>
     </section>
 
-    <div class="page-content">
       <section class="checklist-section" id="checklistSection" hidden>
 
         <div class="progress-wrap">
@@ -69,41 +68,42 @@
           <button class="btn-pill btn-ghost progress-reset" id="resetProgressBtn">Réinitialiser</button>
         </div>
 
-        <div class="search-row">
+        <div class="suivi-toolbar">
           <div class="search-box">
             <span class="search-icon">⌕</span>
             <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
           </div>
-        </div>
-        
 
-        <div class="game-toggle-row">
-          <div class="game-toggle">
-            <button class="game-btn active" data-game="all" aria-selected="true">Les deux jeux</button>
-            <button class="game-btn" data-game="oot" aria-selected="false">Ocarina of Time</button>
-            <button class="game-btn" data-game="ww" aria-selected="false">The Wind Waker</button>
+          <div class="suivi-filter-group">
+            <div class="game-toggle">
+              <button class="game-btn active" data-game="all" aria-selected="true">Les deux jeux</button>
+              <button class="game-btn" data-game="oot" aria-selected="false">Ocarina of Time</button>
+              <button class="game-btn" data-game="ww" aria-selected="false">The Wind Waker</button>
+            </div>
+
+            <span class="filter-divider" aria-hidden="true"></span>
+
+            <div class="filters-row">
+              <button class="chip chip-all active" data-cat="all">Tout</button>
+              <button class="chip chip-coeur" data-cat="coeur">
+                <img src="images/coeur.png" class="chip-icon" alt="">
+                Quarts de cœur
+              </button>
+              <button class="chip chip-bouteille" data-cat="bouteille">
+                <img src="images/bouteille.png" class="chip-icon" alt="">
+                Bouteilles
+              </button>
+              <button class="chip chip-fee" data-cat="fee">
+                <img src="images/fee.png" class="chip-icon" alt="">
+                Grandes Fées
+              </button>
+            </div>
           </div>
-        </div>
-
-        <div class="filters-row">
-          <button class="chip chip-all active" data-cat="all">Tout</button>
-          <button class="chip chip-coeur" data-cat="coeur">
-            <img src="images/coeur.png" class="chip-icon" alt="">
-            Quarts de cœur
-          </button>
-          <button class="chip chip-bouteille" data-cat="bouteille">
-            <img src="images/bouteille.png" class="chip-icon" alt="">
-            Bouteilles
-          </button>
-          <button class="chip chip-fee" data-cat="fee">
-            <img src="images/fee.png" class="chip-icon" alt="">
-            Grandes Fées
-          </button>
         </div>
 
         <div class="check-list" id="checklistWrap"></div>
       </section>
-    </div>
+    
   </div>
 </main>
 
