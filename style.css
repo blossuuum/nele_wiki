@@ -309,6 +309,14 @@ html[data-theme="dark"] .icon-sun{ display:none; }
   padding-bottom: 250px;
 }
 
+.hero-other{
+  position:relative;
+  max-width: 900px; margin: 0 auto; padding: 56px 24px 40px;
+  text-align:center; overflow:visible;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .crest-divider{
   position: relative;
   height: 14px;
@@ -667,11 +675,27 @@ html[data-theme="dark"] .how-it-works-band{
 
 .checklist-section{ max-width: 900px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
 
-.progress-wrap{ display:flex; align-items:center; gap:16px; margin-bottom:26px; flex-wrap:wrap; }
+.progress-wrap{
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  padding-bottom:20px; margin-bottom:20px;
+  border-bottom:1px solid var(--border-soft);
+}
 .progress-bar{ flex:1; min-width:160px; height:12px; border-radius: var(--radius-pill); background: var(--surface-soft); overflow:hidden; }
 .progress-bar-fill{ height:100%; width:0%; background: var(--accent); border-radius: var(--radius-pill); transition: width .25s ease; }
 .progress-text{ font-weight:800; color: var(--ink-soft); white-space:nowrap; font-size:.9rem; }
 .progress-reset{ font-size:.82rem; padding:8px 16px; white-space:nowrap; }
+
+.suivi-toolbar{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:16px; flex-wrap:wrap; margin-bottom:24px;
+}
+.suivi-toolbar .search-box{ width:auto; flex:1 1 260px; max-width:380px; }
+.suivi-filter-group{
+  display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+}
+.filter-divider{
+  width:1px; height:26px; background: var(--border-soft); flex-shrink:0;
+}
 
 .game-toggle-row{ display:flex; justify-content:center; margin-bottom:18px; }
 
