@@ -62,46 +62,48 @@
 
       <section class="checklist-section" id="checklistSection" hidden>
 
-        <div class="suivi-toolbar">
-          <div class="search-box">
-            <span class="search-icon">⌕</span>
-            <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
-          </div>
+        <div class="suivi-layout">
+          <aside class="suivi-sidebar">
+            <div class="search-box">
+              <span class="search-icon">⌕</span>
+              <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
+            </div>
 
-          <div class="progress-wrap">
-            <div class="progress-bar"><div class="progress-bar-fill" id="progressBarFill"></div></div>
-            <span class="progress-text" id="progressText">0 / 0 obtenus</span>
-            <button class="btn-pill btn-ghost progress-reset" id="resetProgressBtn">Réinitialiser</button>
+            <div class="progress-wrap">
+              <div class="progress-bar"><div class="progress-bar-fill" id="progressBarFill"></div></div>
+              <span class="progress-text" id="progressText">0 / 0 obtenus</span>
+              <button class="btn-pill btn-ghost progress-reset" id="resetProgressBtn">Réinitialiser</button>
+            </div>
+
+            <div class="game-toggle">
+              <button class="game-btn active" data-game="all" aria-selected="true">Les deux jeux</button>
+              <button class="game-btn" data-game="oot" aria-selected="false">Ocarina of Time</button>
+              <button class="game-btn" data-game="ww" aria-selected="false">The Wind Waker</button>
+            </div>
+
+            <span class="filter-divider" aria-hidden="true"></span>
+
+            <div class="filters-row">
+              <button class="chip chip-all active" data-cat="all">Tout</button>
+              <button class="chip chip-coeur" data-cat="coeur">
+                <img src="images/coeur.png" class="chip-icon" alt="">
+                Quarts de cœur
+              </button>
+              <button class="chip chip-bouteille" data-cat="bouteille">
+                <img src="images/bouteille.png" class="chip-icon" alt="">
+                Bouteilles
+              </button>
+              <button class="chip chip-fee" data-cat="fee">
+                <img src="images/fee.png" class="chip-icon" alt="">
+                Grandes Fées
+              </button>
+            </div>
+          </aside>
+
+          <div class="suivi-main">
+            <div class="check-list" id="checklistWrap"></div>
           </div>
         </div>
-
-        <div class="suivi-filter-group">
-          <div class="game-toggle">
-            <button class="game-btn active" data-game="all" aria-selected="true">Les deux jeux</button>
-            <button class="game-btn" data-game="oot" aria-selected="false">Ocarina of Time</button>
-            <button class="game-btn" data-game="ww" aria-selected="false">The Wind Waker</button>
-          </div>
-
-          <span class="filter-divider" aria-hidden="true"></span>
-
-          <div class="filters-row">
-            <button class="chip chip-all active" data-cat="all">Tout</button>
-            <button class="chip chip-coeur" data-cat="coeur">
-              <img src="images/coeur.png" class="chip-icon" alt="">
-              Quarts de cœur
-            </button>
-            <button class="chip chip-bouteille" data-cat="bouteille">
-              <img src="images/bouteille.png" class="chip-icon" alt="">
-              Bouteilles
-            </button>
-            <button class="chip chip-fee" data-cat="fee">
-              <img src="images/fee.png" class="chip-icon" alt="">
-              Grandes Fées
-            </button>
-          </div>
-        </div>
-
-        <div class="check-list" id="checklistWrap"></div>
       </section>
     
   </div>
