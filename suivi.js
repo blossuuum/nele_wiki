@@ -8,6 +8,7 @@
 
   var loginCard = document.getElementById('loginCard');
   var userCard = document.getElementById('userCard');
+  var authSection = document.getElementById('authSection');
   var userAvatar = document.getElementById('userAvatar');
   var userName = document.getElementById('userName');
   var loginBtn = document.getElementById('loginBtn');
@@ -164,6 +165,7 @@
     if (meta.avatar_url) userAvatar.src = meta.avatar_url;
     loginCard.hidden = true;
     userCard.hidden = false;
+    authSection.hidden = true;
     checklistSection.hidden = false;
     loadProgress().then(function () {
       render();
@@ -176,6 +178,7 @@
     checkedIds = new Set();
     loginCard.hidden = false;
     userCard.hidden = true;
+    authSection.hidden = false;
     checklistSection.hidden = true;
   }
 
