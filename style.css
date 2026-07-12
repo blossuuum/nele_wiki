@@ -208,6 +208,7 @@ html[data-theme="dark"] .icon-sun{ display:none; }
 
 .header-auth{ display:flex; align-items:center; }
 .btn-discord-compact{ padding:7px 12px; font-size:.8rem; gap:6px; }
+#headerLoginBtn[hidden]{ display:none; }
 
 .header-user{
   display:flex; align-items:center; gap:6px;
@@ -903,3 +904,6 @@ html[data-theme="dark"] .how-it-works-band{
   .logo{ font-size:1.15em; }
   .logo-icon{ width:28px; height:28px; }
 }
+/* Garde-fou : respecte toujours [hidden], même face à des classes utilitaires
+   (.btn-pill, .btn-discord, etc.) qui définissent leur propre display. */
+[hidden]{ display:none !important; }
