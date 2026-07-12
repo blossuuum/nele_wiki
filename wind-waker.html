@@ -17,12 +17,6 @@
   }catch(e){}
 })();
 </script>
-<div id="header-placeholder"></div>
-<script src="theme.js"></script>
-<script src="include-header.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="supabase-config.js"></script>
-<script src="auth.js"></script>
 </head>
 <body data-page="ww">
 
@@ -31,17 +25,12 @@
 <script src="include-header.js"></script>
 
 <main id="top">
-  <section class="hero">
+  <section class="hero-other">
     <span class="eyebrow">GameCube · 2002</span>
     <h1>Guide de <span class="hero-highlight">Zelda The Wind Waker</span></h1>
-    <p class="hero-sub">44 quarts de cœur, 4 bouteilles et 8 dons des Grandes Fées | cherchez, filtrez, et cliquez sur une carte pour voir la marche à suivre complète.</p>
+    <p class="hero-sub">43 quarts de cœur, 4 bouteilles et 7 dons des Grandes Fées | cherchez, filtrez, et cliquez sur une carte pour voir la marche à suivre complète.</p>
 
-    <div class="search-row">
-      <div class="search-box">
-        <span class="search-icon">⌕</span>
-        <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
-      </div>
-    </div>
+    
   </section>
 
   <div class="crest-divider">
@@ -51,6 +40,14 @@
 
   <div class="page-content">
     <section class="filters-section">
+
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">⌕</span>
+          <input id="searchInput" type="text" placeholder="Chercher un lieu, un objet requis…">
+        </div>
+      </div>
+
       <div class="filters-row">
         <button class="chip chip-all active" data-cat="all">Tout <span class="chip-count" id="count-all">56</span></button>
         <button class="chip chip-coeur" data-cat="coeur">
