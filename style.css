@@ -674,7 +674,7 @@ html[data-theme="dark"] .how-it-works-band{
 .btn-ghost{ background: var(--surface-soft); color: var(--ink-soft); box-shadow:none; }
 .btn-ghost:hover{ background: var(--accent-pale); color: var(--accent-deep); }
 
-.checklist-section{ max-width: 1120px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
+.checklist-section{ max-width: 1150px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
 
 .progress-wrap{
   display:flex; align-items:center; gap:12px; flex-wrap:wrap;
