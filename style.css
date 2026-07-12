@@ -694,10 +694,10 @@ html[data-theme="dark"] .how-it-works-band{
 .progress-reset{ align-self:flex-start; font-size:.82rem; padding:8px 16px; white-space:nowrap; }
 
 .suivi-sidebar .game-toggle{
-  display:flex; flex-direction:column; width:100%;
-  border-radius: var(--radius-lg);
+  display:flex; flex-direction:column; width:100%; gap:8px;
+  background:none; padding:0; box-shadow:none; border-radius:0;
 }
-.suivi-sidebar .game-btn{ width:100%; text-align:left; border-radius: var(--radius-md); }
+.suivi-sidebar .game-btn{ width:100%; justify-content:flex-start; text-align:left; }
 
 .filter-divider{
   width:100%; height:1px; background: var(--border-soft);
