@@ -358,6 +358,8 @@ html[data-theme="dark"] .crest-emblem-dark{ display:block; }
 .hero-home h1{ font-size: 3rem; line-height:1.15; color: var(--ink); margin-bottom: 18px;}
 
 .search-row{ display:flex; justify-content:center; margin-bottom: 22px;}
+
+body[data-page="suivi"] .search-row{ margin-bottom: 44px; }
 .search-box{
   display:flex; align-items:center; gap:10px;
   background: var(--surface); border-radius: var(--radius-pill);
@@ -417,6 +419,7 @@ html[data-theme="dark"] .crest-emblem-dark{ display:block; }
   background-image: url('images/bg-pattern.png');
   background-repeat: repeat;
   background-size: 1300px;
+  background-attachment: fixed;
   padding-top: 100px;
   padding-bottom: 100px;
 }
