@@ -673,7 +673,7 @@ html[data-theme="dark"] .how-it-works-band{
 .btn-ghost{ background: var(--surface-soft); color: var(--ink-soft); box-shadow:none; }
 .btn-ghost:hover{ background: var(--accent-pale); color: var(--accent-deep); }
 
-.checklist-section{ max-width: 900px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
+.checklist-section{ max-width: 1200px; margin: 0 auto; padding: 0 24px 70px; padding-top: 70px; padding-bottom: 60px; }
 
 .progress-wrap{
   display:flex; align-items:center; gap:12px; flex-wrap:wrap;
@@ -700,7 +700,11 @@ html[data-theme="dark"] .how-it-works-band{
 
 .game-toggle-row{ display:flex; justify-content:center; margin-bottom:18px; }
 
-.check-list{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
+.check-list{ display:grid; grid-template-columns: 1fr; gap:10px 20px; margin-top:20px; }
+
+@media (min-width: 720px){
+  .check-list{ grid-template-columns: 1fr 1fr; }
+}
 .check-row{
   display:flex; align-items:center; gap:14px;
   background: var(--surface); border-radius: var(--radius-md); padding: 14px 18px;
