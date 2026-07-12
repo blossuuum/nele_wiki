@@ -683,7 +683,6 @@ html[data-theme="dark"] .how-it-works-band{
   display:flex; flex-direction:column; gap:18px;
   position:sticky; top:24px;
 }
-.suivi-sidebar .search-box{ width:100%; max-width:none; }
 
 .progress-wrap{
   display:flex; flex-direction:column; align-items:stretch; gap:10px;
@@ -696,8 +695,9 @@ html[data-theme="dark"] .how-it-works-band{
 
 .suivi-sidebar .game-toggle{
   display:flex; flex-direction:column; width:100%;
+  border-radius: var(--radius-lg);
 }
-.suivi-sidebar .game-btn{ width:100%; text-align:left; }
+.suivi-sidebar .game-btn{ width:100%; text-align:left; border-radius: var(--radius-md); }
 
 .filter-divider{
   width:100%; height:1px; background: var(--border-soft);
